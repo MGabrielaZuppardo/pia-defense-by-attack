@@ -1,0 +1,38 @@
+# Ambiente virtual
+venv/
+venv312/
+
+# Cache do Python
+__pycache__
+__pycache__
+
+*.pyc
+*.pyo
+.mypy_cache
+
+
+
+# Resultados gerados
+results/
+
+# Variáveis de ambiente
+.env
+
+# Cache do pip
+pip-cache/
+pip-temp/
+
+# Modelos baixados
+models/
+
+# Cache do HuggingFace
+huggingface/
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+desktop.ini
+data/*_pt.json
+.claude 
