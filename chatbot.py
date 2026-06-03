@@ -27,6 +27,7 @@ class OllamaChatbot:
                 messages=messages,
                 max_tokens=max_new_tokens,
                 temperature=0.0,
+                extra_body={"num_ctx": 8192},
             )
             return response.choices[0].message.content.strip()
         except Exception as e:
