@@ -50,7 +50,7 @@ def test(args):
                 message = llm_input[i]
                 answer = data[i].get('output') or ''
 
-                response = model.respond(message, defense_cross_prompt=args.defense_cross_prompt) or ''
+                response = model.respond(message, defense_cross_prompt=args.defense_cross_prompt, sys_input=SYS_INPUT) or ''
 
                 logger.log("------------------- entrada do usuário -----------")
                 logger.log(message)
