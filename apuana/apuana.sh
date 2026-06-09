@@ -15,4 +15,4 @@ module load Python/3.12
 # ativar ambiente
 source $HOME/pia-defense-by-attack/bin/activate
 # executar .py
-python $HOME/CPFL_framework/run_exp1_baseline.ps1
+python $HOME/pia-defense-by-attack/run_exp1_baseline.ps1
