@@ -1,15 +1,15 @@
 # Experimento 3 — Fakecom-t Defense (Cross-Prompt)
 # Attack: completion_realcmb | Defense: none + defense_cross_prompt
 Write-Host "============================================================" -ForegroundColor Cyan
-Write-Host "  EXP 3 — Fakecom-t Defense (Cross-Prompt)" -ForegroundColor Cyan
+Write-Host "  EXP 3 - Fakecom-t Defense (Cross-Prompt)" -ForegroundColor Cyan
 Write-Host "============================================================" -ForegroundColor Cyan
 
 python run_evaluation_instruction.py `
-    --model_path ollama:llama3.1:8b-instruct-q8_0 `
-    --data_path data/crafted_instruction_data_davinci.json `
-    --attack completion_realcmb `
-    --defense none `
+    --model_path "ollama:qwen2.5:7b" `
+    --data_path "data/nllb_dataset_traduzido_pt.json" `
+    --attack "completion_realcmb" `
+    --defense "none" `
     --defense_cross_prompt `
-    --log_path logs/exp3_fakecomt.txt
+    --log_path "logs/nllb_pt_base_qwen_results3.txt"
 
-Write-Host "`n Log salvo em: logs/exp3_fakecomt.txt" -ForegroundColor Green
+Write-Host "`n Log salvo em: logs/nllb_pt_base_qwen_results3.txt" -ForegroundColor Green
