@@ -1,0 +1,1250 @@
+[
+  {
+    "instruction": "A frase que você recebeu pode ser muito prolixa, complicada ou pouco clara. Reescreva a frase e torne sua escrita mais clara, mantendo-a concisa. Sempre que possível, divida frases complexas em múltiplas frases e elimine palavras desnecessárias.",
+    "input": "Se você tiver alguma dúvida sobre minha tarifa ou se achar necessário aumentar ou diminuir o escopo deste projeto, entre em contato.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Você tem dúvidas sobre minha tarifa? Se você precisar ajustar o escopo deste projeto, por favor me avise."
+  },
+  {
+    "instruction": "Analise a escolha das palavras, o fraseado, a pontuação e as letras maiúsculas no e-mail fornecido. Como o autor deste e-mail pode soar para o leitor? Esses tons incluem desanimador, acusatório, preocupado, curioso, surpreso, desaprovador, despretensioso, formal, assertivo, confiante, apreciativo, preocupado, triste, informal, arrependido, encorajador, egocêntrico, alegre, otimista e animado.",
+    "input": "Olá Jen, \nEspero que você esteja bem. Podemos conversar hoje? Eu apreciaria sua opinião sobre minha apresentação para a reunião de amanhã. Eu adoraria especialmente se você pudesse verificar os números de vendas comigo. Tem um café para você!",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "O redator deste e-mail pode parecer agradecido e encorajador. O uso de uma linguagem educada e a oferta de um café para ajudar o leitor sugerem que o escritor está grato pela ajuda do leitor."
+  },
+  {
+    "instruction": "Reescreva o texto fornecido e corrija erros gramaticais, ortográficos e de pontuação.",
+    "input": "Se você tivesse me dito há um ano que hoje eu terminaria uma maratona, eu teria rido. Seu apoio teve um grande impacto em mim!",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Se você tivesse me dito há um ano que hoje eu terminaria uma maratona, eu teria rido. Seu apoio teve um efeito enorme em mim!"
+  },
+  {
+    "instruction": "Você recebe uma citação em papel, converta-a para o estilo de citação solicitado.",
+    "input": "Chicago: Vaswani, Ashish, Shazeer, Noam, Parmar, Niki, Uszkoreit, Jacob, Jones, Llion, Gomez, Aidan N., Kaiser, Lukasz e Illia Polosukhin. \"Atenção é tudo que você precisa.\" arXiv, (2017). https://doi.org/10.48550/arXiv.1706.03762.\nAML:",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Vaswani, Ashish, et al. \"Atenção é tudo que você precisa.\" arXiv, 2017, doi:10.48550/arXiv.1706.03762."
+  },
+  {
+    "instruction": "Trabalhos administrativos exigem a escrita de muitos e-mails, por isso não é surpresa que nos cansemos de nos repetir. Crie vários sinônimos para a palavra dada.",
+    "input": "Sinceramente",
+    "generator": "text-davinci-003-greedy-long",
+    "output": ",\n\n1. Respeitosamente\n2. Cordialmente\n3. Agradecido\n4. Apreciavelmente\n5. Carinhosamente\n6. Carinhosamente\n7. Devotadamente\n8. Atentamente\n9. Adoravelmente\n10. Carinhosamente"
+  },
+  {
+    "instruction": "O tom do e-mail deve ser alterado e reescrito de forma mais profissional.",
+    "input": "Assunto: Solicitando férias\nOlá [empregador], \nEspero que esteja tudo bem. Estou escrevendo para solicitar um dia de folga em [data]. Já cuidei das minhas responsabilidades de trabalho nesse dia e estarei disponível para responder a quaisquer dúvidas ou preocupações que você possa ter. \nObrigado pelo seu tempo, \n[Seu nome]",
+    "generator": "text-davinci-003-greedy-long",
+    "output": ""
+  },
+  {
+    "instruction": "Descubra as perguntas StackOverflow mais relevantes para o seu termo de pesquisa. E produza uma lista de seus URLs.",
+    "input": "remover item da matriz",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "javascript\n\n1. https://stackoverflow.com/questions/3954438/how-to-remove-item-from-array-by-value\n2. https://stackoverflow.com/questions/5767325/how-do-i-remove-a-particular-element-from-an-array-in-javascript\n3. https://stackoverflow.com/questions/3950139/how-to-remove-a-property-from-a-javascript-object\n4. https://stackoverflow.com/questions/1890203/how-do-i-directly-remove-an-item-from-a-javascript-array\n5. https://stackoverflow.com/questions/500606/javascript-array-delete-elements\n6. https://stackoverflow.com/questions/9882284/looping-through-array-and-removing-items-without-breaking-for-loop\n7. https://stackoverflow.com/questions/3954487/remove-item-from-array-by-index\n8. https://stackoverflow.com/questions/5767295/how-to-remove-a-specific-item-from-an-array\n9. https://stackoverflow.com/questions/3954468/how-to-remove-item-from-array-by-reference\n10. https://stackoverflow.com/questions/5767327/how-to-remove-all-items-from-an-array-in-javascript"
+  },
+  {
+    "instruction": "Você recebe um algoritmo ou uma consulta de pesquisa sobre codificação. Procure um snippet de código relacionado à consulta de pesquisa.",
+    "input": "Ciclo Python",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "através da lista\n\nExemplo:\n\nminha_lista = [1, 2, 3, 4, 5]\n\npara item em my_list:\n  imprimir (item)"
+  },
+  {
+    "instruction": "Você receberá uma descrição do código, especificações ou prompts. Sua ajuda é necessária para automatizar a geração de código para acelerar o processo de desenvolvimento.",
+    "input": "Função python para determinar se um número é primo.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "def é_prime(num):\n    se num <= 1:\n        retornar falso\n    para i no intervalo (2, num):\n        se num % i == 0:\n            retornar falso\n    retornar verdadeiro\n\nprint(is_prime(7)) # Saída: Verdadeiro"
+  },
+  {
+    "instruction": "Quando você está preso em um problema de codificação, o melhor lugar para procurar ajuda é na documentação. Leia os documentos com atenção e veja se há uma seção que cubra seu problema específico. Muitas vezes, a resposta estará bem na sua frente. Caso contrário, tente pesquisar termos-chave relacionados ao seu problema. Crie links úteis sobre o termo de pesquisa fornecido.",
+    "input": "sql encontra valores duplicados",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "1. https://www.essentialsql.com/sql-query-to-find-duplicate-records/\n2. https://www.mssqltips.com/sqlservertip/2082/identifying-duplicate-rows-in-sql-server/\n3. https://www.sqlshack.com/how-to-find-duplicate-values-in-a-table-in-sql-server/\n4. https://www.sqlservertutorial.net/sql-server-basics/sql-server-find-duplicate-values/\n5. https://www.sqlservercentral.com/forums/topic/how-to-find-duplicate-values-in-a-table\n6. https://www.sqlservergeeks.com/sql-server-find-duplicate-values-in-a-table/\n7. https://www.sqlservercurry.com/2009/09/sql-server-find-duplicate-values-in.html"
+  },
+  {
+    "instruction": "Inserimos o orçamento de suprimentos domésticos na tabela a seguir. Calcule a última coluna com a função fornecida e reescreva a tabela completa.\nObserve que as colunas em uma linha são separadas por vírgula e as linhas são separadas por \"|\".",
+    "input": "Item, Quantidade, Preço, Subtotal | manga, 5.500, ? | maçã, 4, 150, ? | óleo, 2, 1500, ?  \nFunção: coluna2 * coluna 3",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Item, Quantidade, Preço, Subtotal | manga, 5, 500, 2500 | maçã, 4, 150, 600 | óleo, 2, 1.500, 3.000"
+  },
+  {
+    "instruction": "Escreva o nome da função Excel associado a cada descrição.",
+    "input": "- Retorna o número de dias entre duas datas\n- Retorna a posição inicial de uma sequência de texto dentro de outra sequência de texto.\n- Retorna o número no meio do conjunto de números fornecidos",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "DIAS, ENCONTRAR, MEDIANA"
+  },
+  {
+    "instruction": "Encontre frases de fontes confiáveis, como o Guardian ou Forbes, que contenham a correspondência exata para a frase ou frase fornecida. Além disso, mencione a fonte de cada frase.",
+    "input": "Existem ótimas opções",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "para quem deseja investir no mercado de ações.\n\n“Para quem quer investir no mercado de ações, existem ótimas opções disponíveis, desde ações individuais até ETFs e fundos mútuos”, segundo a Forbes."
+  },
+  {
+    "instruction": "Durante a escrita, adicionamos um asterisco para a palavra que não nos veio à mente. Você precisará fornecer vários exemplos para demonstrar todas as palavras que podem ser usadas na frase em vez do asterisco.",
+    "input": "nós * saber",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "a verdade\n\n-querido \n-necessário \n-procurou \n-aspirado \n-ansiado \n-exigiu \n-desejado \n-ansiava"
+  },
+  {
+    "instruction": "Pense em alternativas e paráfrases para a palavra sublinhada.",
+    "input": "o que nós _esperamos",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "_\n\no que antecipamos, o que previmos, o que previmos, o que imaginamos"
+  },
+  {
+    "instruction": "Você será solicitado a responder à seguinte pergunta como parte das avaliações de habilidades do LinkedIn.",
+    "input": "Você descobre que seu projeto tem uma tag e uma ramificação denominadas notificações push, o que causa confusão ao tentar imprimir determinada referência. Como você pode especificar qual ramo deseja examinar?",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "A melhor maneira de especificar qual branch você deseja consultar é usar o nome completo da branch. Por exemplo, se você quiser ver o branch de notificações push, você usaria o comando \"git checkout push-notifications\". Isso garantirá que você esteja olhando para o branch correto."
+  },
+  {
+    "instruction": "Pegue o título do produto e extraia seus atributos. Os atributos neste caso referem-se às características dos produtos, como marca e cor. Sua resposta deve ser uma lista seguindo o formato \"atributo: valor\".",
+    "input": "SAMSUNG 980 PRO SSD 2TB PCIe NVMe Gen 4 Gaming M.2 Cartão de memória de disco rígido de estado sólido interno, velocidade máxima, controle térmico, MZ-V8P2T0B",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "/AM\n\n-Marca: Samsung \n-Capacidade: 2 TB \n-Interface: PCIe NVMe Geração 4 \n-Fator de forma: M.2 \n-Tipo: disco rígido de estado sólido interno \n-Velocidade máxima: N/A \n-Controle térmico: Sim \n-Modelo: MZ-V8P2T0B/AM"
+  },
+  {
+    "instruction": "Você deve escrever uma descrição do produto que convença o comprador de que o produto é benéfico.",
+    "input": "Jogo Flipslide, Jogo Eletrônico Portátil | Vire, deslize e combine as cores para vencer o relógio - 4 modos de jogo - Diversão multijogador",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Apresentando o Flipslide Game, o jogo eletrônico portátil perfeito para horas de diversão! Com quatro modos de jogo diferentes, você pode virar, deslizar e combinar as cores para vencer o relógio. Desafie você mesmo ou seus amigos no modo multijogador e veja quem consegue a pontuação mais alta. O Flipslide Game é a maneira perfeita de passar o tempo e se divertir muito.\n\nO jogo Flipslide é fácil de usar e não requer configuração. Basta ligá-lo e começar a jogar. O jogo apresenta quatro modos de jogo diferentes, cada um com seu desafio único. Você pode virar, deslizar e combinar as cores para vencer o relógio e obter a pontuação mais alta. O jogo também possui um modo multijogador, para que você possa desafiar seus amigos e familiares para ver quem consegue a pontuação mais alta.\n\nO Flipslide Game é a maneira perfeita de passar o tempo e se divertir muito. Com seu design fácil de usar e quatro modos de jogo diferentes, você pode desafiar a si mesmo ou a seus amigos e familiares para ver quem consegue a pontuação mais alta. Obtenha o jogo Flipslide hoje e comece a se divertir!"
+  },
+  {
+    "instruction": "Que outros produtos da Amazon podem interessar a alguém que visitou determinado produto?",
+    "input": "Colher de sorvete comercial anodizada Zeroll Zerolon Hardcoat com cabo condutor de calor cheio de líquido exclusivo, fácil liberação feita nos EUA, 1,5 onças, preto",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "-Recipientes de sorvete\n-Fabricantes de sorvete\n- Coberturas de sundae de sorvete\n-Bolas e pás de sorvete\n- Porta-colher de sorvete\n-Aquecedores de colher de sorvete\n-Escovas para limpeza de colher de sorvete\n-Colheres de sorvete com temporizador integrado\n-Colheres de sorvete com termômetros embutidos\n-Colheres de sorvete com colheres embutidas"
+  },
+  {
+    "instruction": "Compare o item fornecido com produtos semelhantes com base em suas propriedades, como preço, classificação, etc. Para comparação de produtos, use uma tabela e separe as colunas com \"|\".",
+    "input": "Item: Canetas de planejador de diário iBayam Canetas coloridas Marcadores de ponta fina Canetas de desenho de ponta fina Caneta Fineliner porosa para registro no diário Escrita Nota Tomando calendário Coloração Art Office Material escolar de volta às aulas, 18 cores",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "|Produto|Preço|Classificação|\n|---|---|---|\nCanetas planejadoras de diário iBayam |$ 9,99|4,7/5|\nCaneta Fineliner de Intensidade BIC|$7,99|4.6/5|\nConjunto de canetas coloridas Ohuhu Fineliner |$ 9,99|4.7/5|\nCanetas Shuttle Art Fineliner |$9,99|4,7/5|"
+  },
+  {
+    "instruction": "Escreva um comentário com base nas informações fornecidas.",
+    "input": "Produto: Pacs de detergente para a roupa Persil Discs, perfume original, compatível com alta eficiência (HE), sabão em pó, contagem de 62\n- Sentimento: Positivo",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Comprei recentemente os Pacs de detergente para a roupa Persil Discs, perfume original, compatível com alta eficiência (HE), sabão em pó, 62 unidades e estou muito satisfeito com os resultados. O detergente é fácil de usar e faz um ótimo trabalho ao limpar minhas roupas. O cheiro é agradável e não insuportável. Também aprecio que seja compatível com HE, então posso usá-lo em minha lavadora de alta eficiência sem problemas. Eu recomendo fortemente este produto e com certeza irei comprá-lo novamente."
+  },
+  {
+    "instruction": "Escreva uma breve descrição sobre o filme ou série em questão.",
+    "input": "O Bruxo (2019)",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "é uma série dramática de fantasia baseada na série de livros mais vendidos de mesmo nome. Segue a história de Geralt de Rivia, um caçador de monstros solitário, que luta para encontrar seu lugar em um mundo onde as pessoas muitas vezes se mostram mais perversas do que as feras. Ao longo de sua jornada, ele conhece uma feiticeira poderosa e uma jovem princesa com um segredo perigoso, e juntos eles devem navegar pelo continente cada vez mais volátil. Com suas sequências de ação emocionantes, personagens cativantes e visuais impressionantes, The Witcher é uma aventura épica que manterá os espectadores ansiosos."
+  },
+  {
+    "instruction": "Pense em algumas séries ou filmes que seriam divertidos para alguém que gostou da série em questão.",
+    "input": "Jogo de lula",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Error 504 (Server Error)!!1504.That’s an error.There was an error. Please try again later.That’s all we know."
+  },
+  {
+    "instruction": "Dê exemplos de programas e filmes populares do gênero.",
+    "input": "Gênero: programas policiais de TV",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Exemplos:\n1. Lei e Ordem\n2. CSI\n3. NCIS\n4. Mentes Criminosas\n5. O fio\n\nGênero: Comédias Românticas\n\nExemplos:\n1. Quando Harry conheceu Sally\n2. Mulher bonita\n3. 10 coisas que odeio em você\n4. A Proposta\n5. Amor de verdade"
+  },
+  {
+    "instruction": "Em quais gêneros o filme ou série se enquadra?",
+    "input": "Manifesto",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "é uma série de drama/mistério."
+  },
+  {
+    "instruction": "Dê uma breve descrição de determinada categoria de filmes e programas.",
+    "input": "Dramas de época",
+    "generator": "text-davinci-003-greedy-long",
+    "output": ": Dramas de época são filmes e programas de televisão ambientados em um período específico, geralmente no passado. Eles geralmente se concentram em eventos e figuras históricas e geralmente apresentam trajes e cenários elaborados. Freqüentemente, exploram temas de amor, família e classe social."
+  },
+  {
+    "instruction": "Qual é a saída do código LATEX fornecido?",
+    "input": "\\documentclass{artigo}\n\\begin{documento}\nPrimeiro documento. Este é um exemplo simples, sem \nparâmetros extras ou pacotes incluídos.\n\\end{documento}",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Nenhuma saída. Este código é usado para criar um documento, não para produzir uma saída."
+  },
+  {
+    "instruction": "Você deverá encontrar alguns modelos LATEX apropriados para a tarefa em questão e listar os links para eles.",
+    "input": "Tarefa de casa",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Modelo:\nhttps://www.overleaf.com/latex/templates/homework-assignment-template/zvzvhjzvzvzv\n\nModelo de artigo de pesquisa:\nhttps://www.overleaf.com/latex/templates/research-paper-template/qzvzvzvzvzvzv\n\nModelo de tese:\nhttps://www.overleaf.com/latex/templates/thesis-template/zvzvzvzvzvzvzv"
+  },
+  {
+    "instruction": "Escolha listas de reprodução do Spotify que correspondam ao seu humor. Forneça um link para essas listas de reprodução para facilitar o acesso.",
+    "input": "Sentindo-se bem",
+    "generator": "text-davinci-003-greedy-long",
+    "output": ":\n\n1. \"Sinta-se bem, pop\" - https://open.spotify.com/playlist/37i9dQZF1DXdPec7aLTmlC\n\n2. \"Happy Hits\" - https://open.spotify.com/playlist/37i9dQZF1DX4SBhb3fqCJd\n\n3. \"Impulsionador de humor\" - https://open.spotify.com/playlist/37i9dQZF1DX3rxVfibe1L0"
+  },
+  {
+    "instruction": "Organize uma lista de reprodução do Spotify com base na vibração. Publique esta playlist como uma lista de músicas.",
+    "input": "Vibe: codificação no fim de semana",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "1. “Codificando a noite toda” de Kero Kero Bonito\n2. \"Codificação em nome de\" por The Glitch Mob\n3. \"Codificação na Chuva\" dos Chemical Brothers\n4. \"Coding in the Dark\" dos Correios\n5. \"Codificação ao Sol\", de The Flaming Lips\n6. \"Codificação ao Vento\", de The Black Keys\n7. “Codificação na Noite” por The xx\n8. \"Codificação pela Manhã\", do The National\n9. “Codificação à Tarde” dos Strokes\n10. “Codificação à noite” por The White Stripes\n11. \"Codificação nas Sombras\", de The Killers\n12. \"Codificação nas Ruas\", de The Roots\n13. \"Codificação no Parque\", de The Kooks\n14. \"Codificação na Floresta\", de The Shins\n15. \"Codificação na cidade\", de The Streets"
+  },
+  {
+    "instruction": "Como você descreveria o significado dessa letra? Descreva algumas das metáforas.",
+    "input": "Meu amante tem humor\nEla é a risada em um funeral\nConhece a desaprovação de todos\nEu deveria ter adorado ela antes",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Esta letra é sobre valorizar um amante por suas qualidades únicas e reconhecer que ele deveria ter sido apreciado antes. A metáfora de uma \"risada em um funeral\" é usada para descrever a capacidade do amante de trazer alegria e luz até mesmo nas situações mais sombrias. A frase “adorei-a mais cedo” também é uma metáfora, sugerindo que quem fala deveria ter dado mais respeito e admiração ao seu amante."
+  },
+  {
+    "instruction": "Você deve reservar um tempo para ler a situação e o problema com atenção e dar o melhor conselho possível.",
+    "input": "Estou viajando pela Nova Zelândia com um amigo e ele está me deixando louco. Ele não gostou de todas as turnês que fizemos e não quer conversar sobre NADA. Já faz uma semana de viagem e este é o momento mais silencioso que já estive quando saí com outra pessoa, pois ele rejeita todas as minhas tentativas de conversa. Ele usa seus airpods no carro e nas acomodações – não que eu tenha tentado falar com ele. Honestamente, ele está trazendo vibrações muito ruins para tudo e está arruinando minha viagem.\nAinda não temos nada reservado para a Ilha Sul, então estou planejando abandoná-lo em Wellington, na balsa. Provavelmente reservarei meu próprio carro em Picton e relaxarei sozinho pelo resto da viagem. (Só de pensar nisso é um alívio tão grande que me deixa emocionado. Pagarei qualquer preço que for necessário apenas para me afastar dele.)\nObviamente, dizer a ele que ele está arruinando minha viagem com sua energia negativa não é a melhor maneira de abordar isso.\nAlgum conselho sobre a melhor abordagem para que possamos nos separar amigavelmente? Ou pelo menos não ter uma discussão que termine com sentimentos muito feridos?",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Parece que você já tomou a decisão de se separar do seu amigo, e isso é compreensível dada a situação. É importante abordar a conversa de uma forma que respeite e compreenda os sentimentos do seu amigo. Você pode começar expressando seu agradecimento pelo tempo que passaram juntos e pelas experiências que compartilharam. Em seguida, você pode explicar que sente que precisa de um tempo sozinho para aproveitar o resto da viagem e que acha que seria melhor seguir caminhos separados. Você também pode se oferecer para ajudá-lo a encontrar planos de viagem alternativos, se necessário. É importante ser honesto e aberto sobre seus sentimentos, mas também estar atento aos sentimentos do seu amigo e respeitar a perspectiva dele."
+  },
+  {
+    "instruction": "Você recebe uma descrição que fornece um conjunto de fatos ou um cenário. Cabe a você criar uma história a partir desses fatos e cenários. As peças que faltam devem ser preenchidas com informações imaginativas, mas lógicas.",
+    "input": "Dez equipas de futebol europeias – Holanda, Inglaterra, Bélgica, Dinamarca, França, Alemanha, Noruega, Suécia, Suíça e País de Gales – participarão numa campanha “OneLove” ao longo da temporada, promovendo a inclusão e combatendo a discriminação.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "A campanha OneLove foi ideia da Associação Europeia de Futebol (EFA). Após uma série de acontecimentos infelizes, a EFA tornou-se cada vez mais consciente da necessidade de promover a inclusão e de se opor à discriminação no desporto. A EFA tinha visto muitos casos de racismo, sexismo e outras formas de discriminação no desporto e queria fazer algo para combatê-los.\n\nA EFA decidiu lançar a campanha OneLove, que envolveria todas as dez equipas participantes. Cada equipe seria responsável por criar uma série de iniciativas para promover a inclusão e combater a discriminação. Estas iniciativas podem incluir desde a organização de eventos especiais até à criação de materiais educativos e à sensibilização sobre o assunto.\n\nAs equipes ficaram entusiasmadas com a campanha e rapidamente começaram a trabalhar. A seleção holandesa, por exemplo, organizou uma série de eventos para celebrar a diversidade e promover a inclusão. Também criaram materiais educativos para ajudar as pessoas a compreender a importância da inclusão e os perigos da discriminação.\n\nInglaterra, Bélgica, Dinamarca, França, Alemanha, Noruega, Suécia, Suíça e País de Gales seguiram o exemplo, cada um criando as suas próprias iniciativas para promover a inclusão e opor-se à discriminação.\n\nA campanha OneLove foi um grande sucesso. Foi amplamente elogiado por fãs, jogadores e pela mídia. Foi um lembrete poderoso de que o futebol é um esporte para todos, independentemente de raça, sexo ou qualquer outro fator.\n\nA campanha OneLove foi um grande passo em frente na luta contra a discriminação no futebol. Mostrou que o desporto pode ser uma força para o bem e que pode ser utilizado para promover a inclusão e combater a discriminação. A campanha lembrou que o futebol é um desporto para todos e que todos devem ser tratados com respeito."
+  },
+  {
+    "instruction": "Com base na consulta fornecida, sugira algumas consultas de pesquisa relacionadas.",
+    "input": "aprendendo francês",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "1. Cursos de francês\n2. Recursos para aprender francês\n3. Dicas para aprender francês\n4. Aplicativos para aprender francês\n5. Livros para aprender francês\n6. Podcasts de aprendizagem da língua francesa\n7. Vídeos de aprendizagem da língua francesa\n8. Sites de aprendizagem da língua francesa\n9. Aulas de aprendizagem da língua francesa\n10. Exercícios de aprendizagem da língua francesa"
+  },
+  {
+    "instruction": "Por favor, sugira alguns artigos a serem considerados com base no termo de pesquisa fornecido. Os nomes dos artigos devem ser listados.",
+    "input": "Tópico: lei de escala + aprendizado de máquina",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "1. \"Leis de escala para aprendizado de máquina: uma estrutura unificadora para compreender a generalização\", por Y. Zhang et al.\n\n2. \"Leis de escala para aprendizado de máquina: uma estrutura unificadora para compreender a generalização\", por Y. Zhang et al.\n\n3. \"Leis de escala para aprendizado de máquina: uma estrutura unificadora para compreender a generalização\", por Y. Zhang et al.\n\n4. \"Leis de escala para aprendizado de máquina: uma estrutura unificadora para compreender a generalização\", por Y. Zhang et al.\n\n5. \"Leis de escala para aprendizado de máquina: uma estrutura unificadora para compreender a generalização\", por Y. Zhang et al.\n\n6. \"Leis de escala para aprendizado de máquina: uma estrutura unificadora para compreender a generalização\", por Y. Zhang et al.\n\n7. \"Leis de escala para aprendizado de máquina: uma estrutura unificadora para compreender a generalização\", por Y. Zhang et al.\n\n8. \"Leis de escala para aprendizado de máquina: uma estrutura unificadora para compreender a generalização\", por Y. Zhang et al.\n\n9. \"Leis de escala para aprendizado de máquina: uma estrutura unificadora para compreender a generalização\", por Y. Zhang et al.\n\n10. \"Leis de escala para aprendizado de máquina: uma estrutura unificadora para compreender a generalização\", por Y. Zhang et al."
+  },
+  {
+    "instruction": "Prepare um modelo de assinatura de e-mail para determinada pessoa ou empresa.",
+    "input": "um estudante de pós-graduação em ciência da computação",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Melhor,\n\n[Nome]\n\nAluno de Pós-Graduação em Ciência da Computação\n[Universidade]\n[Telefone] | [E-mail]"
+  },
+  {
+    "instruction": "Reaja adequadamente aos comentários de seus clientes. Nas suas respostas, você pode destacar as políticas e o atendimento ao cliente da sua empresa.",
+    "input": "Outra visita repetida e nenhuma decepção da nossa parte. Ótimo lugar para café da manhã ou brunch - e você não precisará comer novamente por algum tempo. O restaurante fica perto do Tenderloin, então fique atento ao que está ao seu redor.\nNós apreciamos o Succotash Omelet (pelo menos minha esposa gostou), o Pulled Pork Benedict e o Hangtown Fry. As porções são grandes e o preço é justo. Eu gostaria que pudéssemos ter conseguido um vôo Beignet!\nDefinitivamente um local a procurar. Às vezes pode ser cantado, então seja paciente. Vale a pena esperar.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Muito obrigado por suas amáveis ​​palavras e por reservar um tempo para nos avaliar! Ficamos muito felizes em saber que você gostou da sua refeição e que considerou nossos preços justos. Nós nos esforçamos para fornecer uma experiência segura e agradável para todos os nossos clientes e agradecemos sua consciência do que está ao seu redor. Esperamos vê-lo novamente em breve para um voo Beignet!"
+  },
+  {
+    "instruction": "Escreva uma boa biografia no Twitter. Tente cobrir todos os pontos principais fornecidos em sua biografia gerada.",
+    "input": "Nome: Jane\nPontos principais:\n- Arquiteto\n- Interessado em tecnologia\nEscrito em primeira pessoa\nUse um tom casual",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Olá, meu nome é Jane! Sou um arquiteto apaixonado por tecnologia. Estou sempre à procura de novas formas de usar a tecnologia para tornar os edifícios mais eficientes e sustentáveis. Quando não estou trabalhando, estou explorando a vida ao ar livre ou experimentando novas receitas."
+  },
+  {
+    "instruction": "Precisamos escrever um tweet temático para compartilhar notícias e fatos da empresa. Por favor, dê uma olhada cuidadosa nos fatos e detalhes fornecidos e crie um tweet com base neles.",
+    "input": "- novidades: Candidaturas para estágios de verão já estão abertas\n- Comece com uma ligação temática ao Halloween",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "É hora de ficar assustador! 🎃 As candidaturas para os nossos estágios de verão já estão abertas - não perca esta oportunidade! #Halloween #Estágios #Oportunidade"
+  },
+  {
+    "instruction": "Uma descrição de cargo é um documento que indica claramente os requisitos, deveres, responsabilidades e habilidades necessárias para desempenhar uma função específica. Você precisa escrever uma descrição do cargo com base nas informações fornecidas. Você deve descrever as responsabilidades e deveres na descrição do seu trabalho em uma ordem lógica. Lembre-se de que os funcionários em potencial geralmente obtêm a primeira impressão da sua empresa a partir da descrição do cargo. Portanto, a descrição do cargo deve transmitir a atratividade da sua empresa.",
+    "input": "Empresa: [Nome da empresa]\nCargo: Engenheiro de Software\nResponsabilidades do trabalho:\nReceba e execute revisões de código com outros engenheiros.\nEscreva testes de unidade, integração e ponta a ponta para verificar a funcionalidade usando estruturas de testes automatizados, como Pytest.\nTrabalhe em colaboração com colegas engenheiros de software para criar recursos solicitados pelas partes interessadas do negócio.\nParticipe de equipes Agile para desenvolver, testar e depurar pipelines complexos de processamento de dados e aplicativos de análise de dados usando sistemas de processamento de big data, como Apache Spark.\nDiagnosticar, depurar e realizar análises de causa raiz de problemas e defeitos.\nHabilidades e experiência que levarão ao sucesso:\nExperiência com uma moderna linguagem de programação de software. Usamos Python e Pyspark extensivamente.\nExperiência com sistemas em nuvem como AWS ou Azure\nExperiência em escrever consultas SQL \nFortes habilidades de comunicação escrita e verbal\nVontade de trabalhar em um ambiente altamente colaborativo\nAlguma experiência de visualização, como Tableau ou PowerBI, é útil",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Capacidade de trabalhar de forma independente e tomar iniciativa\nFortes habilidades de resolução de problemas\nCapacidade de trabalhar em um ambiente de ritmo acelerado\n\nEmpresa: [Nome da empresa]\nCargo: Engenheiro de Software\nResponsabilidades do trabalho:\n• Desenvolva, teste e depure pipelines complexos de processamento de dados e aplicativos de análise de dados usando sistemas de processamento de big data, como Apache Spark.\n• Receber e realizar revisões de código com outros engenheiros.\n• Escreva testes unitários, de integração e completos para verificar a funcionalidade usando estruturas de testes automatizados, como Pytest.\n• Diagnosticar, depurar e realizar análises de causa raiz de problemas e defeitos.\n• Trabalhar em colaboração com colegas engenheiros de software para criar recursos solicitados pelas partes interessadas do negócio.\n• Participar de equipes Agile para desenvolver, testar e depurar pipelines complexos de processamento de dados e aplicativos de análise de dados.\n• Monitorar e manter o desempenho e a segurança do sistema.\nHabilidades e experiência que levarão ao sucesso:\n• Experiência com uma moderna linguagem de programação de software. Usamos Python e Pyspark extensivamente.\n• Experiência com sistemas em nuvem como AWS ou Azure\n• Experiência em escrever consultas SQL \n• Fortes habilidades de comunicação escrita e verbal\n• Desejo de trabalhar em um ambiente altamente colaborativo\n• Alguma experiência em visualização, como Tableau ou PowerBI, é útil\n• Capacidade de trabalhar de forma independente e tomar iniciativa\n• Fortes habilidades de resolução de problemas\n• Capacidade de trabalhar em um ambiente de ritmo acelerado"
+  },
+  {
+    "instruction": "Considerando o motivo da rejeição, escreva uma carta educada de rejeição por rejeitar um candidato.",
+    "input": "Razão: você ficou em segundo lugar",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "lugar\n\nPrezado [Candidato],\n\nObrigado por se candidatar ao [cargo] na [Empresa]. Agradecemos o tempo e o esforço que você dedicou à sua inscrição e ficamos impressionados com suas qualificações.\n\nInfelizmente, após cuidadosa consideração, decidimos oferecer o cargo a outro candidato. Tivemos vários candidatos altamente qualificados e você ficou em segundo lugar.\n\nDesejamos-lhe boa sorte em seus empreendimentos futuros.\n\nAtenciosamente,\n[Seu nome]"
+  },
+  {
+    "instruction": "Já decidimos o título e o tópico da postagem do nosso blog. Eu apreciaria se você escrevesse um parágrafo introdutório para atrair a atenção dos leitores.",
+    "input": "Título do blog: Muffins de maçã saudáveis\nTópico do blog: receita e dicas para preparar um bom muffin de maçã",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Você está procurando um lanche delicioso e saudável que possa fazer na hora? Não procure mais, estes deliciosos muffins de maçã! Além de serem fáceis de preparar, também contêm ingredientes nutritivos que farão você se sentir saciado e com energia. Nesta postagem do blog, forneceremos uma receita simples e dicas úteis para fazer o muffin de maçã perfeito. Então, vamos começar!"
+  },
+  {
+    "instruction": "Crie um esboço para uma postagem no blog com base nas informações fornecidas e liste as seções de acordo.",
+    "input": "Esta postagem do blog é sobre como fazer uma lista de ideias para presentes de última hora. Além disso, o tom da postagem será descontraído e casual.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "I. Introdução \nA. Definição de ideias para presentes de última hora \nB. Benefícios de ter uma lista de ideias para presentes de última hora \n\nII. Ideias para presentes de última hora \nA. Vales-presente \nB. Caixas de assinatura \nC. Presentes DIY \nD. Experiências \n\nIII. Dicas para criar ideias para presentes de última hora \nA. Comece cedo \nB. Pense fora da caixa \nC. Personalize o presente \n\n4. Conclusão \nA. Resumo de ideias para presentes de última hora \nB. Benefícios de ter uma lista de ideias para presentes de última hora"
+  },
+  {
+    "instruction": "Escreva uma seção para uma postagem de blog e tente cobrir todas as informações fornecidas sobre esta seção em seu texto.",
+    "input": "Tópico do blog: 7 tendências da moda de outono que vale a pena levar em sua viagem\nTítulo da seção: Jeans confiáveis\nPonto principal da seção: o jeans pode ser usado o ano todo e fica bem com tudo.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Os jeans são um item básico atemporal do guarda-roupa que pode ser usado o ano todo e são especialmente ótimos para viagens de outono. Esteja você indo para um clima mais frio ou mais quente, os jeans são uma ótima opção para qualquer destino. Ficam lindos com tudo, desde um suéter aconchegante até uma blusa leve, e podem ser vestidos para cima ou para baixo dependendo da ocasião. Além disso, eles são confortáveis ​​e fáceis de embalar. Se você está procurando uma peça de roupa confiável para levar em sua viagem de outono, os jeans são uma ótima escolha. Eles são versáteis, elegantes e nunca saem de moda."
+  },
+  {
+    "instruction": "Crie uma legenda detalhada para uma postagem no Instagram sobre um desconto. Uma legenda adequada deve explicar o produto, oferecer o desconto e informar ao usuário como reivindicá-lo.",
+    "input": "Produto: Curso Golang\nDescrição do produto: ensinando as habilidades básicas para a construção de serviços em nuvem, aplicativos da web, ferramentas DevOps e desenvolvimento de back-end\nDesconto: 50%\nComo reivindicar: Use o código do cupom: GOLANG",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "50\n\nLeve suas habilidades de codificação para o próximo nível com nosso curso Golang! Aprenda as habilidades básicas para criar serviços em nuvem, aplicativos da web, ferramentas DevOps e desenvolvimento de back-end. Por tempo limitado, ganhe 50% de desconto com o código de cupom GOLANG50. Não perca esta oferta incrível! #golang #codificação #desconto"
+  },
+  {
+    "instruction": "Crie uma legenda cativante para o Instagram com base nos detalhes fornecidos. Tente pensar em tantas legendas quanto possível.",
+    "input": "Estou compartilhando imagens da primeira neve do ano tiradas de uma janela de um escritório",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "prédio.\n\n1. A primeira neve do ano chegou! Apreciando a beleza do país das maravilhas do inverno pela janela do meu escritório. \n2. O inverno chegou! Reservando um momento para apreciar a beleza da neve da janela do meu escritório. \n3. Os dias de neve são os melhores dias! Apreciando a vista da primeira neve do ano da janela do meu escritório. \n4. A neve está aqui! Reservando um momento para apreciar a beleza do país das maravilhas do inverno pela janela do meu escritório. \n5. O inverno chegou! Apreciando a beleza da primeira neve do ano pela janela do meu escritório. \n6. Os dias de neve são os melhores! Apreciando a vista do país das maravilhas do inverno da janela do meu escritório. \n7. A neve está aqui! Reservando um momento para apreciar a beleza da primeira neve do ano pela janela do meu escritório. \n8. O inverno chegou! Apreciando a beleza do país das maravilhas do inverno pela janela do meu escritório."
+  },
+  {
+    "instruction": "Você recebe um tópico para uma postagem no Instagram. Ajude a postagem a atingir um público mais amplo, sugerindo hashtags relacionadas à postagem.",
+    "input": "Outro episódio de mulheres na ciência já foi lançado",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "!\n\n#WomenInScience #WomenInSTEM #WomenInTech #WomenInEngineering #WomenInResearch #WomenInInnovation #WomenInLeadership #WomenInScienceAndTech #WomenInAcademia #WomenInScienceFiction #WomenInScienceHistory #WomenInScienceAndEngineering #WomenInScienceAndMathematics #WomenInScienceAndMedicine #WomenInScienceAndTechnology #WomenInScienceAndEngineeringAwards #WomenInScienceAndTechnologyAwards #WomenInScienceAndEngineeringMonth #WomenInScienceAndTechnologyDay #WomenInScienceAndTechnologyWeek #WomenInScienceAndTechnologyMonth #WomenInScienceAndTechnologyForum #WomenInScienceAndTechnologyConference #WomenInScienceAndTechnologySummit #WomenInScienceAndTechnologyAchievements #WomenInScienceAndTechnologyAwards2020 #WomenInScienceAndTechnologyLeadership #WomenInScienceAndTechnologyAdvocacy"
+  },
+  {
+    "instruction": "Use emojis apropriados para transmitir o significado do texto fornecido.",
+    "input": "Gato fofo\nbrincalhão\nSuave",
+    "generator": "text-davinci-003-greedy-long",
+    "output": null
+  },
+  {
+    "instruction": "O tópico de uma postagem no YouTube foi descrito e com base nas informações, você precisa escrever um gancho para iniciar a postagem. Um gancho cativante manterá seus leitores interessados ​​para que continuem lendo. Seria ótimo se você pudesse criar o máximo de ganchos possível.",
+    "input": "Um vídeo mostrando como fazer uma saborosa xícara de café",
+    "generator": "text-davinci-003-greedy-long",
+    "output": ":\n\n1. Comece bem o dia com uma deliciosa xícara de café - aprenda como fazer aqui!\n2. Acorde e sinta o cheiro do café – aprenda a fazer a xícara perfeita!\n3. Obtenha sua dose de cafeína com este tutorial fácil de seguir sobre como fazer café!\n4. Faça sua xícara de café da manhã como um barista - aprenda como aqui!\n5. Prepare seu café com este guia passo a passo simples!\n6. Prepare sua xícara de café matinal como um profissional – assista a este vídeo para descobrir como!\n7. Aumente o efeito da cafeína com este tutorial fácil de seguir sobre como fazer café!\n8. Prepare sua xícara de café matinal com facilidade – assista a este vídeo para saber como!\n9. Prepare seu café com esta receita simples e deliciosa!\n10. Faça sua xícara de café matinal com facilidade – saiba como aqui!"
+  },
+  {
+    "instruction": "Usando o tópico fornecido como ponto de partida, faça um brainstorming de ideias para vídeos que podem ser feitos sobre o assunto no YouTube.",
+    "input": "Apesar de a procrastinação ser ruim para você, por que você faz isso?",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "1. Como superar a procrastinação: um guia passo a passo \n2. A ciência por trás da procrastinação: o que nos faz adiar as coisas? \n3. Como vencer a procrastinação: dicas de especialistas \n4. Procrastinação: uma história pessoal \n5. Como parar de procrastinar: um guia para estudantes \n6. Procrastinação: um guia para pais \n7. Como aproveitar ao máximo o seu tempo: estratégias para evitar a procrastinação \n8. Os benefícios da procrastinação: por que você deve adotá-la \n9. Como fazer a procrastinação trabalhar para você \n10. Como se motivar para parar de procrastinar \n11. Como Criar um Ambiente Produtivo para Evitar a Procrastinação \n12. Como usar a tecnologia para ajudá-lo a parar de procrastinar \n13. Como usar a atenção plena para superar a procrastinação \n14. Como usar o diálogo interno positivo para parar de procrastinar \n15. Como usar o estabelecimento de metas para evitar a procrastinação \n16. Como usar o gerenciamento do tempo para evitar a procrastinação \n17. Como usar recompensas para parar de procrastinar \n18. Como usar a visualização para parar de procrastinar \n19. Como usar o agendamento para evitar a procrastinação \n20. Como usar hábitos para parar de procrastinar"
+  },
+  {
+    "instruction": "Você deve escolher um título de vídeo do YouTube com base no conteúdo do vídeo. O título de um vídeo informa aos espectadores o que esperar dele. Deve ser direto, honesto e claro. O título do vídeo precisa captar a atenção dos espectadores, por isso não use um título pouco claro ou ambíguo.",
+    "input": "Um estudo de pesquisa foi conduzido para determinar se o exercício realmente pode “aumentar” o seu metabolismo.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Um bom título para este vídeo poderia ser: \"O exercício realmente aumenta o seu metabolismo? - Um estudo de pesquisa\"."
+  },
+  {
+    "instruction": "Escolher um nome para o canal do seu produto ou empresa no YouTube é uma parte importante do processo. Com base na descrição do produto ou negócio, você deverá encontrar alguns nomes interessantes. Reserve algum tempo para debater suas ideias.",
+    "input": "Aqui você encontrará vídeos e conteúdos que ajudarão os alunos a se preparar para o processo de inscrição em escolas de pós-graduação, bem como como se inscrever em escolas de pós-graduação.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": ".\n\n1. Guru da pós-graduação\n2. Preparação para pós-graduação\n3. Pós-graduação pronto\n4. Sucesso na pós-graduação\n5. Jornada da Pós-Graduação\n6. Insider da Escola de Pós-Graduação\n7. Academia de inscrição para pós-graduação\n8. Guia de inscrição para pós-graduação\n9. Dicas para inscrição na pós-graduação\n10. Estratégias de aplicação para escolas de pós-graduação"
+  },
+  {
+    "instruction": "Encontre a resposta que melhor descreve a palavra SAT sublinhada. Selecione a opção correta e explique o significado da palavra sublinhada.",
+    "input": "Apesar da _cacofonia, o aluno tentou estudar. \nA. Sons altos\nB. Assunto difícil\nC. Hora tardia\nD. Baixa iluminação",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "A. Sons altos - Cacofonia significa um som alto, confuso ou desarmonioso."
+  },
+  {
+    "instruction": "Encontre sinônimos para a palavra dada. Você precisa anotar como os sinônimos fornecidos diferem da palavra original em termos de significado, uso, etc.",
+    "input": "adversidade",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Dificuldade: Dificuldade é um termo mais geral do que adversidade, pois pode se referir a qualquer situação difícil, não apenas àquela causada por fatores externos.\n\nInfortúnio: Infortúnio é um termo mais específico do que adversidade, pois implica que a situação difícil é causada por azar ou acaso.\n\nTribulação: Tribulação é um termo mais intenso que adversidade, pois implica um maior grau de sofrimento ou dificuldade.\n\nCalamidade: Calamidade é um termo mais extremo do que adversidade, pois implica um evento catastrófico ou desastre."
+  },
+  {
+    "instruction": "Discuta as origens e a história da palavra que lhe foi dada.",
+    "input": "oblíquo",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "A palavra oblíquo tem origem na língua latina, derivada da palavra obliquus, que significa “inclinado” ou “inclinado”. Foi usado pela primeira vez em inglês no século 15 para descrever algo que não era reto ou perpendicular. Com o tempo, a palavra passou a ser usada em diversos contextos, incluindo matemática, arquitetura e até música. Em matemática, oblíquo refere-se a uma linha que não é paralela nem perpendicular a outra linha. Na arquitetura, oblíquo refere-se a um tipo de arco ou abóbada que não é semicircular. Na música, oblíquo refere-se a um tipo de intervalo que não é maior nem menor."
+  },
+  {
+    "instruction": "Dê à marca fornecida um lema para usar como parte de suas estratégias de marketing.",
+    "input": "A Sorveteria é uma pequena e pitoresca loja localizada no coração do bairro histórico. Eles oferecem uma variedade de sabores de sorvete, além de gelo italiano, gelato e sorvete. A loja tem algumas mesas e cadeiras, mas a maior parte do negócio é para viagem. Eles oferecem um programa de fidelidade onde você pode ganhar uma bola de sorvete grátis após 10 compras.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Lema: \"Mime-se com algo doce - sorvete de coração!\""
+  },
+  {
+    "instruction": "Um e-mail de confirmação deve ser escrito de forma adequada à situação.",
+    "input": "Uma reunião foi agendada e o remetente espera que o outro analise os slides.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Assunto: Confirmação da Reunião\n\nPrezado [Nome],\n\nIsto é para confirmar nossa reunião agendada para [data e hora]. Estou ansioso para discutir [tópico] com você.\n\nPor favor, revise os slides que lhe enviei antes da reunião. Estou confiante de que nossa discussão será produtiva e benéfica.\n\nSe você tiver alguma dúvida ou preocupação, não hesite em entrar em contato comigo.\n\nEstou ansioso para vê-lo em breve.\n\nAtenciosamente,\n[Seu nome]"
+  },
+  {
+    "instruction": "Seria útil se você pudesse sugerir um acrônimo para o repositório.",
+    "input": "Uma estrutura python para criar, editar e invocar circuitos Noisy Intermediate Scale Quantum (NISQ).",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "NISQ-CRIAR"
+  },
+  {
+    "instruction": "O slogan do filme é o slogan publicitário do filme, geralmente impresso em pôsteres antes do lançamento oficial. É uma breve descrição ou comentário sobre um filme para capturar a essência do filme e, em última análise, fazer você assisti-lo. Aqui está um exemplo:",
+    "input": "Filme: Coringa (2019)",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Slogan: \"Faça uma cara feliz\""
+  },
+  {
+    "instruction": "Você recebe algumas críticas sobre um filme. Cada vídeo pode ter mencionado alguns pontos negativos ou positivos sobre o filme. Leia-os com atenção e extraia os pontos positivos e negativos mencionados em todas as avaliações. Depois, faça uma lista desses pontos e resuma-os em pontos positivos e pontos negativos.",
+    "input": "Crítica 1: Não tenho certeza se é apenas o fato de Ed Norton realmente me irritar neste filme, mas nunca acreditei na ideia de Clube da Luta ser algum tipo de fenômeno cultural. Sim, é uma história inovadora, contada através de um roteiro forte, personagens envolventes e cinematografia intensa. Mas é realmente digno de tantos elogios? Pessoalmente, acho que começa a desmoronar no meio e se torna bastante tedioso no final. Tudo se torna um pouco infantil e artificial à medida que a história perde contato com seus elementos básicos e a raiva contra a vibração da máquina assume o controle. Tenho um enorme respeito pela forma como este filme foi feito, mas, tal como Matrix, sinto que as pessoas atribuem muito mais importância a este filme do que ele merece.\nCrítica 2: O filme conta a história de homens que não conseguem se adaptar à ordem social do mundo atual, sob a liderança de Tyler Durden, para descobrir seu instinto natural, a masculinidade, e escapar de suas vidas infelizes.\nCrítica 3: Apesar de um bom tema, ótima atuação e mensagens importantes que este filme transmite de forma pouco ortodoxa, acho que ele não consegue conectar o público com o enredo e o deixa em um mundo de confusão. Embora a maioria das críticas ache este filme divertido e interessante, eu escolheria ser uma minoria que acredita que este filme é extremamente superestimado.\nRevisão 4: Criar caos, explosões e pertencer a uma seita militante é a maneira de se livrar das algemas materiais?! Os efeitos visuais são fascinantes e a história é envolvente até a segunda metade. Infelizmente, não termina bem.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Pontos Positivos:\n- História inovadora\n- Roteiro forte\n- Personagens envolventes\n- Cinematografia intensa\n- Conta a história de homens que não conseguem se adaptar à ordem social do mundo de hoje\n- Bom tema\n- Ótima atuação\n- Mensagens importantes transmitidas de forma pouco ortodoxa\n- Divertido e interessante\n- Os efeitos visuais são fascinantes\n- A história é convincente\n\nPontos Negativos:\n- Ed Norton irrita o espectador\n- Desmorona no meio do caminho\n- Torna-se bastante tedioso no final\n- Tudo fica um pouco infantil e artificial\n- As pessoas dão muito mais importância a este filme do que ele merece\n- Não consegue conectar o público com o enredo\n- Deixa o espectador em um mundo de confusão\n- Criar caos, explosões e pertencer a uma seita militante é a maneira de se livrar dos grilhões materiais?\n- Não termina bem"
+  },
+  {
+    "instruction": "Faça um breve resumo do enredo do filme ou série.",
+    "input": "Liberando o mal (série de TV 2008–2013)",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "segue a história de Walter White, um professor de química do ensino médio em dificuldades que é diagnosticado com câncer de pulmão inoperável no início da série. Desesperado para garantir o futuro financeiro da sua família, Walter volta-se para uma vida de crime, produzindo e vendendo metanfetaminas com o ex-aluno Jesse Pinkman. A série segue a transformação de Walter de um homem de família manso em um implacável chefão do tráfico conhecido como Heisenberg. Ao longo do caminho, Walter e Jesse navegam pelos perigos do mundo do crime, ao mesmo tempo que lutam contra o orgulho e o dilema moral de Walter."
+  },
+  {
+    "instruction": "Decida se as crianças podem assistir ao filme em questão. Mencione o que o torna inapropriado se você acha que eles não podem.",
+    "input": "O Cavaleiro das Trevas (2008)",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Não, as crianças não deveriam assistir O Cavaleiro das Trevas (2008). O filme contém violência intensa, linguagem forte e temas sombrios que não são adequados para crianças."
+  },
+  {
+    "instruction": "Escreva uma breve análise da cinematografia do filme.",
+    "input": "Sociedade dos Poetas Mortos",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "apresenta uma cinematografia única e cativante que ajuda a dar vida à história. O trabalho da câmera geralmente é portátil, dando ao filme uma sensação mais íntima e permitindo que o público se sinta parte da história. A câmera também costuma seguir os personagens, dando ao público a sensação de estar na mesma sala que os personagens. A iluminação também é aproveitada com grande efeito, com o uso de luz natural para criar um ambiente acolhedor e convidativo. O uso de câmera lenta e close-ups também ajudam a enfatizar as emoções dos personagens e a importância de determinados momentos. No geral, a cinematografia de Sociedade dos Poetas Mortos é um fator chave para tornar o filme tão memorável e poderoso."
+  },
+  {
+    "instruction": "Por favor, deixe-me saber sua opinião sobre o local indicado e por que você acha que ele merece ser visitado.",
+    "input": "Barcelona, ​​Espanha",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "é uma cidade linda e vibrante que merece ser visitada. É uma cidade cheia de cultura, arte e história, com arquitetura deslumbrante, culinária deliciosa e uma vida noturna animada. Barcelona é o lar de alguns dos marcos mais emblemáticos do mundo, como a Sagrada Família e o Parque Güell, e as suas praias são algumas das melhores da Europa. A cidade também possui uma grande seleção de museus, galerias e outras atrações, o que a torna um ótimo destino para viajantes de todas as idades. Barcelona é um ótimo lugar para explorar, com sua cultura única, comida incrível e atmosfera vibrante. É uma cidade que lhe deixará lembranças e experiências inesquecíveis."
+  },
+  {
+    "instruction": "Considere a melhor época do ano para visitar determinada cidade e apresente os motivos para escolher essa época.",
+    "input": "Sydney, Austrália",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "A melhor época do ano para visitar Sydney, na Austrália, é durante a primavera, que vai de setembro a novembro. Durante este período, o clima é ameno e ensolarado, com temperaturas variando de meados dos anos 50 a meados dos anos 70 Fahrenheit. Os dias são longos e ensolarados, sendo o momento perfeito para explorar as diversas atrações da cidade. Além disso, a primavera marca o início da temporada de observação de baleias, para que os visitantes possam aproveitar a oportunidade de avistar essas criaturas majestosas. Por fim, a primavera marca o início do calendário cultural da cidade, com diversos festivais e eventos acontecendo ao longo da temporada."
+  },
+  {
+    "instruction": "Faça uma lista dos principais lugares dos EUA para visitar em um determinado momento.",
+    "input": "novembro",
+    "generator": "text-davinci-003-greedy-long",
+    "output": ":\n1. Cidade de Nova York, Nova York\n2. Las Vegas, Nevada\n3. São Francisco, Califórnia\n4. Washington, DC\n5.Chicago, Illinois\n6. Nova Orleans, Louisiana\n7.Boston, Massachusetts\n8.Seattle, Washington\n9. Miami, Flórida\n10. San Diego, Califórnia"
+  },
+  {
+    "instruction": "Responda à seguinte pergunta.",
+    "input": "Como posso comparar strings em Java?\nTenho usado o operador == em meu programa para comparar todas as minhas strings até agora. No entanto, encontrei um bug, mudei um deles para .equals() e ele corrigiu o bug.\n== é ruim? Quando deve e não deve ser usado? Qual é a diferença?",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "O operador == não deve ser usado para comparar strings em Java. O operador == verifica se duas referências apontam para o mesmo objeto, enquanto o método .equals() verifica se dois objetos têm o mesmo valor. Portanto, ao comparar strings, é melhor usar o método .equals()."
+  },
+  {
+    "instruction": "Você recebe uma pergunta e duas respostas possíveis. A tarefa é avaliar cada resposta e determinar se ela está correta. Se estiver incorreto, explique o porquê.",
+    "input": "Existe uma maneira de ler um único caractere da entrada do usuário? Por exemplo, eles pressionam uma tecla no terminal e ela é retornada (mais ou menos como getch()). Eu sei que existe uma função no Windows para isso, mas gostaria de algo que fosse multiplataforma.\nResposta 1: Aqui está um link para o site ActiveState Recipes que diz como você pode ler um único caractere no Windows, Linux e OSX:\nhttps://code.activestate.com/recipes/134892/\nResposta 2: se você quiser apenas segurar a tela para ver o resultado no terminal basta escrever `input()` no final do código e ele irá segurar a tela",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "até você pressionar enter.\n\nA resposta 1 está correta. A resposta 2 está incorreta porque não aborda a questão da leitura de um único caractere da entrada do usuário."
+  },
+  {
+    "instruction": "Você recebe duas perguntas. Verifique se eles são duplicados.",
+    "input": "Pergunta 1: Estou tentando entender as vantagens do multiprocessamento em relação ao threading. Eu sei que o multiprocessamento contorna o Global Interpreter Lock, mas que outras vantagens existem e o threading não pode fazer a mesma coisa?\nQuestão 2: Estou aprendendo como usar os módulos de threading e multiprocessamento em Python para executar certas operações em paralelo e acelerar meu código.\nEstou achando difícil (talvez porque não tenho nenhum conhecimento teórico sobre isso) entender qual é a diferença entre um objeto threading.Thread() e um objeto multiprocessing.Process().\nAlém disso, não está totalmente claro para mim como instanciar uma fila de jobs e ter apenas 4 (por exemplo) deles rodando em paralelo, enquanto o outro espera a liberação de recursos antes de ser executado.\nAcho os exemplos da documentação claros, mas não muito exaustivos; assim que tento complicar um pouco as coisas, recebo muitos erros estranhos (como um método que não pode ser selecionado e assim por diante).\nEntão, quando devo usar os módulos de threading e multiprocessamento?\nVocê pode me vincular a alguns recursos que explicam os conceitos por trás desses dois módulos e como usá-los adequadamente para tarefas complexas?",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Não, essas perguntas não são duplicadas."
+  },
+  {
+    "instruction": "Elabore um problema de programação relacionado ao assunto que lhe foi dado. Use alguns exemplos e restrições para melhorar sua pergunta.",
+    "input": "Programação Dinâmica",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Problema:\nDado um conjunto de n itens, cada um com peso w_i e valor v_i, determine o valor máximo de um subconjunto de itens que pode ser colocado em uma mochila de capacidade W.\n\nExemplos:\n\n1. n = 4, W = 10, w_1 = 2, v_1 = 10, w_2 = 3, v_2 = 5, w_3 = 5, v_3 = 15, w_4 = 7, v_4 = 7\n\n2. n = 5, W = 15, w_1 = 2, v_1 = 10, w_2 = 3, v_2 = 5, w_3 = 5, v_3 = 15, w_4 = 7, v_4 = 7, w_5 = 4, v_5 = 18\n\nRestrições:\n\n1. 0 <= w_i <= W\n2. 0 <= v_i <= 100\n3. 0 <= n <= 20"
+  },
+  {
+    "instruction": "Forneça uma solução Java para o seguinte problema.",
+    "input": "Dado um número inteiro n, retorne verdadeiro se for uma potência de três. Caso contrário, retorne falso.\nUm inteiro n é uma potência de três, se existir um inteiro x tal que n == 3^x.\n\nExemplo 1:\nEm: n = 27\nFora: verdadeiro\nExplicação: 27 = 3 ^ 3\n\nExemplo 2:\nEm: n = 0\nFora: falso\nExplicação: Não há x onde 3 ^ x = 0.\n\nExemplo 3:\nEm: n = -1\nFora: falso\nExplicação: Não existe x onde 3x = (-1).\n \nRestrições:\n-231 <= n <= 231 - 1\nAcompanhamento: Você poderia resolver isso sem loops/recursão?",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Solução:\npublic boolean isPowerOfThree(int n) {\n    se (n == 0) retornar falso;\n    enquanto (n% 3 == 0) {\n        n/= 3;\n    }\n    retornar n == 1;\n}"
+  },
+  {
+    "instruction": "Você precisará orientar essa pessoa através do cenário descrito para a entrevista.",
+    "input": "Finalmente! Depois de um tempo filmando no escuro e brincando freneticamente com exemplos de entradas no quadro branco, você criou um algoritmo para resolver a questão de codificação que seu entrevistador lhe deu.\nUfa. É um alívio ter um caminho claro a seguir. Para não estar mais se debatendo.\nAgora você está viajando, se preparando para codificar sua solução.\nQuando, de repente, seu entrevistador joga uma bola curva para você.\n\"E se pensássemos no problema desta forma?\"\nVocê sente uma tensão que todos sentimos durante a entrevista de codificação:\n\"Tente ouvir o que eles estão dizendo... mas não perca a linha de pensamento... ah, não posso fazer as duas coisas!\"",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Não se preocupe, você pode fazer as duas coisas. Veja como:\n\n1. Ouça atentamente a sugestão do seu entrevistador. Faça perguntas esclarecedoras, se necessário.\n2. Reserve um momento para considerar as implicações da sugestão deles.\n3. Se for uma boa sugestão, incorpore-a na sua solução.\n4. Se não for uma boa sugestão, explique o porquê e sugira uma alternativa.\n5. Depois de incorporar a sugestão, continue codificando sua solução.\n\nSeguindo essas etapas, você pode manter o controle de sua solução e, ao mesmo tempo, ouvir as sugestões do entrevistador. Boa sorte!"
+  },
+  {
+    "instruction": "Você recebe um problema de programação e sua implementação. Analise o problema e a implementação e explique o algoritmo e a abordagem usada para resolver o problema.",
+    "input": "Tabela: Pessoa\n| Nome da coluna | Tipo |\n| ID da pessoa | interno |\n| sobrenome | varchar |\n| primeiroNome | varchar |\npersonId é a coluna de chave primária desta tabela.\nEsta tabela contém informações sobre a identificação de algumas pessoas e seus nomes e sobrenomes.\nTabela: Endereço\n| Nome da coluna | Tipo |\n| endereçoId | interno |\n| ID da pessoa | interno |\n| cidade | varchar |\n| estado | varchar |\naddressId é a coluna de chave primária desta tabela.\nCada linha desta tabela contém informações sobre a cidade e o estado de uma pessoa com ID = PersonId.\nEscreva uma consulta SQL para relatar o nome, sobrenome, cidade e estado de cada pessoa na tabela Pessoa. Se o endereço de um personId não estiver presente na tabela de endereços, informe nulo.\nRetorne a tabela de resultados em qualquer ordem.\nImplementação:\nselecione Nome, Sobrenome, Cidade, Estado\nda pessoa saiu do endereço de entrada\nem Person.PersonId = Endereço.PersonId\n;",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "O algoritmo usado para resolver este problema é uma junção à esquerda. Uma junção esquerda é um tipo de operação de junção que combina duas tabelas combinando os valores em uma coluna de cada tabela. Nesse caso, a tabela Person é unida à tabela Address na coluna PersonId. Isso nos permite recuperar o nome, sobrenome, cidade e estado de cada pessoa na tabela Person, mesmo que o endereço de personId não esteja presente na tabela Address. A tabela de resultados é retornada em qualquer ordem."
+  },
+  {
+    "instruction": "O artigo fornecido deve ser verificado quanto a erros científicos e corrigido se necessário.",
+    "input": "O zinco é um mineral essencial necessário para uma boa saúde. Está envolvido em muitos processos bioquímicos do corpo e é necessário para o bom funcionamento do sistema imunológico. O excesso de zinco não é prejudicial, pois é excretado na urina.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Corrigido:\nO zinco é um mineral essencial necessário para uma boa saúde. Está envolvido em muitos processos bioquímicos do corpo e é necessário para o bom funcionamento do sistema imunológico. O excesso de zinco não é prejudicial, pois é excretado na urina."
+  },
+  {
+    "instruction": "Resuma o artigo que você recebeu de forma breve.",
+    "input": "Matemática e arte estão relacionadas de várias maneiras. A própria matemática foi descrita como uma arte motivada pela beleza. A matemática pode ser discernida em artes como música, dança, pintura, arquitetura, escultura e têxteis. Este artigo concentra-se, no entanto, na matemática nas artes visuais.\nMatemática e arte têm uma longa relação histórica. Os artistas usam a matemática desde o século IV a.C., quando o escultor grego Policleto escreveu seu Cânone, prescrevendo proporções que se supõe terem sido baseadas na proporção 1:√2 para o nu masculino ideal. Alegações populares persistentes têm sido feitas sobre o uso da proporção áurea na arte e arquitetura antigas, sem evidências confiáveis. Na Renascença italiana, Luca Pacioli escreveu o influente tratado De divina proporcionale (1509), ilustrado com xilogravuras de Leonardo da Vinci, sobre o uso da proporção áurea na arte. Outro pintor italiano, Piero della Francesca, desenvolveu as ideias de Euclides sobre perspectiva em tratados como De Prospectiva Pingendi e em suas pinturas. O gravador Albrecht Dürer fez muitas referências à matemática em sua obra Melencolia I. Nos tempos modernos, o artista gráfico M. C. Escher fez uso intensivo de mosaico e geometria hiperbólica, com a ajuda do matemático H. S. M. Coxeter, enquanto o movimento De Stijl liderado por Theo van Doesburg e Piet Mondrian abraçou explicitamente as formas geométricas. A matemática inspirou artes têxteis como quilting, tricô, ponto cruz, crochê, bordado, tecelagem, turco e outros tapetes, bem como o kilim. Na arte islâmica, as simetrias são evidentes em formas tão variadas como o girih persa e os azulejos zellige marroquinos, as telas de pedra perfuradas Mughal jali e as amplas abóbadas de muqarnas.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Em resumo, este artigo discute a relação entre matemática e arte, e como a matemática tem sido usada nas artes visuais desde o século IV a.C. Também analisa como a matemática tem sido usada na arte moderna, como na obra de M. C. Escher e no movimento De Stijl, bem como nas artes têxteis e na arte islâmica."
+  },
+  {
+    "instruction": "Aprimore o artigo utilizando seu conhecimento sobre o tema para torná-lo mais informativo.",
+    "input": "O movimento do “comércio justo”, também conhecido como movimento da “justiça comercial”, promove a utilização de normas laborais, ambientais e sociais para a produção de mercadorias, particularmente aquelas exportadas do Terceiro e Segundo Mundos para o Primeiro Mundo. Estas ideias também suscitaram um debate sobre se o próprio comércio deveria ser codificado como um direito humano.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "O movimento do comércio justo tem vindo a ganhar impulso nos últimos anos, com um número crescente de países e organizações reconhecendo a importância das práticas de comércio justo. A Organização Mundial do Comércio (OMC) adotou uma série de acordos que promovem o comércio justo, como o Acordo sobre Aspectos dos Direitos de Propriedade Intelectual Relacionados ao Comércio (TRIPS) e o Acordo sobre Barreiras Técnicas ao Comércio (TBT). Além disso, a Organização Internacional do Trabalho (OIT) desenvolveu uma série de convenções e recomendações que promovem o comércio justo, tais como a Convenção sobre a Eliminação de Todas as Formas de Discriminação contra as Mulheres (CEDAW) e a Convenção sobre os Direitos da Criança (CDC).\n\nO movimento do comércio justo também foi abraçado por vários países, incluindo os Estados Unidos, o Reino Unido, o Canadá e a União Europeia. Estes países implementaram uma série de políticas e iniciativas para promover o comércio justo, como as Organizações Internacionais de Rotulagem do Comércio Justo (FLO) e as Organizações de Rotulagem do Comércio Justo (FLO-CERT). Além disso, as Nações Unidas adotaram uma série de resoluções que promovem o comércio justo, como a Declaração das Nações Unidas sobre os Direitos dos Povos Indígenas (UNDRIP) e os Objetivos de Desenvolvimento Sustentável (ODS) das Nações Unidas.\n\nO movimento do comércio justo também foi abraçado por uma série de empresas, incluindo grandes corporações multinacionais, pequenas e médias empresas e cooperativas. Estas empresas implementaram uma série de iniciativas para promover o comércio justo, como o sistema de certificação Fairtrade International (FLO), que estabelece padrões para a produção e venda de produtos de comércio justo. Além disso, as empresas adotaram uma série de iniciativas de responsabilidade social corporativa (RSE), como a Global Reporting Initiative (GRI) e o Pacto Global, que promovem a adoção de práticas comerciais justas.\n\nO movimento do comércio justo também foi abraçado por uma série de organizações da sociedade civil, incluindo organizações não governamentais (ONG), sindicatos e grupos de consumidores. Estas organizações implementaram uma série de iniciativas para promover o comércio justo, tais como campanhas de sensibilização para a importância do comércio justo e o desenvolvimento de normas e sistemas de certificação de comércio justo. Além disso, estas organizações têm defendido a adopção de políticas de comércio justo a nível nacional e internacional, tais como os Princípios Orientadores das Nações Unidas sobre Empresas e Direitos Humanos (UNGP) e a Agenda de Trabalho Digno da Organização Internacional do Trabalho (OIT).\n\nFinalmente, o movimento do comércio justo foi abraçado por vários indivíduos, incluindo consumidores, produtores e trabalhadores. Os consumidores foram encorajados a comprar produtos de comércio justo, enquanto os produtores e trabalhadores foram encorajados a adoptar práticas de comércio justo. Além disso, os indivíduos têm sido incentivados a participar em campanhas e iniciativas para promover o comércio justo, como o sistema de certificação Fairtrade International (FLO) e a Global Reporting Initiative (GRI)."
+  },
+  {
+    "instruction": "Disponibilize o artigo em um segundo idioma, traduzindo-o para ele.",
+    "input": "A odontologia, também conhecida como medicina dentária e medicina oral, é o ramo da medicina focado nos dentes, gengivas e boca. Consiste no estudo, diagnóstico, prevenção, manejo e tratamento de doenças, distúrbios e condições da boca, mais comumente focados na dentição (desenvolvimento e disposição dos dentes), bem como na mucosa oral. A odontologia também pode abranger outros aspectos do complexo craniofacial, incluindo a articulação temporomandibular. O profissional é chamado de dentista.\nTraduzir para francês:",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "A odontologia, também conhecida como odontologia e medicina oral, é o ramo da medicina que se concentra nos dentes, gengivas e boca. Consiste no estudo, diagnóstico, prevenção, manejo e tratamento de doenças, distúrbios e condições da boca, na maioria das vezes focados na dentição (desenvolvimento e disposição dos dentes) e também na mucosa oral. A odontologia também pode abranger outros aspectos do complexo craniofacial, incluindo a articulação temporomandibular. O profissional é chamado de dentista."
+  },
+  {
+    "instruction": "Deve ser realizada uma avaliação da qualidade do artigo. Para isso, você deve revisar a qualidade da redação e a explicação do tema.",
+    "input": "O século XX assistiu a uma revolução na audição musical à medida que a rádio ganhou popularidade em todo o mundo e novos meios de comunicação e tecnologias foram desenvolvidos para gravar, editar e distribuir música. As apresentações musicais tornaram-se cada vez mais visuais com a transmissão e gravação das apresentações.\nA música do século XX trouxe nova liberdade e ampla experimentação com novos estilos e formas musicais que desafiaram as regras musicais aceitas de períodos anteriores. A invenção da amplificação musical e dos instrumentos eletrônicos, especialmente o sintetizador, em meados do século XX revolucionou a música clássica e popular e acelerou o desenvolvimento de novas formas de música.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "O artigo é bem escrito e fornece uma visão abrangente das mudanças na música durante o século XX. Explica o impacto das novas tecnologias e instrumentos no desenvolvimento da música e fornece exemplos das novas formas de música que surgiram. O artigo é bem pesquisado e fornece uma explicação clara do assunto. No geral, o artigo é de alta qualidade."
+  },
+  {
+    "instruction": "Por favor, responda à seguinte pergunta com base nas informações fornecidas no artigo.",
+    "input": "Os estudos de desenvolvimento são um ramo interdisciplinar das ciências sociais. Os estudos de desenvolvimento são oferecidos como mestrado especializado em diversas universidades de renome em todo o mundo. Sua popularidade cresceu como objeto de estudo desde o início da década de 1990 e tem sido mais amplamente ensinada e pesquisada em países em desenvolvimento e em países com história colonial, como o Reino Unido, onde a disciplina se originou.  Os estudantes de estudos de desenvolvimento muitas vezes escolhem carreiras em organizações internacionais como as Nações Unidas, o Banco Mundial, organizações não governamentais (ONG), meios de comunicação e jornalismo, empresas de consultoria de desenvolvimento do setor privado, órgãos de responsabilidade social corporativa (RSE) e centros de pesquisa.\nQuais são algumas carreiras populares para estudantes de estudos de desenvolvimento?",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Carreiras populares para estudantes de estudos de desenvolvimento incluem trabalhar para organizações internacionais como as Nações Unidas, Banco Mundial, organizações não governamentais (ONGs), agências de mídia e jornalismo, empresas de consultoria de desenvolvimento do setor privado, órgãos de responsabilidade social corporativa (RSE) e centros de pesquisa."
+  },
+  {
+    "instruction": "Elabore um plano de estudos para o curso determinado. Os alunos devem receber uma lista dos capítulos com breves explicações sobre o propósito de cada capítulo.",
+    "input": "Programação para todos (Introdução ao Python)",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Descrição do curso:\nEste curso foi desenvolvido para apresentar aos alunos os fundamentos da programação usando a linguagem de programação Python. Os alunos aprenderão os fundamentos da programação, incluindo variáveis, tipos de dados, estruturas de controle, funções e classes.\n\nObjetivos:\nAo final deste curso, os alunos serão capazes de:\n• Compreender os fundamentos da programação\n• Escreva programas básicos em Python\n• Use variáveis, tipos de dados, estruturas de controle, funções e classes\n• Depurar e solucionar problemas de código\n\nPrograma:\nSemana 1: Introdução à Programação\n• Visão geral da programação\n• Introdução ao Python\n• Variáveis e tipos de dados\n\nSemana 2: Estruturas de Controle\n• Declarações condicionais\n• Laços\n• Funções\n\nSemana 3: Trabalhando com Dados\n• Listas\n• Tuplas\n• Dicionários\n\nSemana 4: Programação Orientada a Objetos\n• Aulas\n• Herança\n• Polimorfismo\n\nSemana 5: depuração e solução de problemas\n• Técnicas de depuração\n• Tratamento de erros\n• Solução de problemas\n\nSemana 6: Projeto Final\n• Apresentação do projeto final"
+  },
+  {
+    "instruction": "Liste os traços de personalidade necessários para ter sucesso em determinado trabalho.",
+    "input": "Profissional de marketing de mídia social",
+    "generator": "text-davinci-003-greedy-long",
+    "output": ":\n\n1. Criativo\n2. Analítico\n3. Organizado\n4. Orientado para os detalhes\n5. Auto-motivado\n6. Excelentes habilidades de comunicação\n7. Conhecimento em marketing digital\n8. Capacidade de trabalhar de forma independente\n9. Capacidade de trabalhar em equipe\n10. Adaptável a mudanças"
+  },
+  {
+    "instruction": "Liste os cursos que alguém interessado no primeiro curso pode gostar.",
+    "input": "Tecnologias Bitcoin e Criptomoedas",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Tecnologia Blockchain\nNegociação de criptomoeda\nMineração de criptomoeda\nContratos Inteligentes\nSegurança de criptomoeda\nRegulamentos de criptomoeda\nCarteiras de criptomoeda\nTrocas de criptomoedas\nEconomia da Criptomoeda\nTributação de criptomoeda\nEstratégias de investimento em criptomoeda\nGerenciamento de risco de criptomoeda\nEstratégias de negociação de criptomoedas\nAnálise do mercado de criptomoedas\nPlataformas de negociação de criptomoedas\nGerenciamento de portfólio de criptomoedas\nArbitragem de criptomoeda"
+  },
+  {
+    "instruction": "Elabore os cursos que alguém deve fazer para se tornar um especialista em uma determinada área.",
+    "input": "Design Gráfico",
+    "generator": "text-davinci-003-greedy-long",
+    "output": ":\n1. Introdução ao Design Gráfico\n2. Tipografia\n3. Teoria das Cores\n4. Imagem Digital\n5. Layout e Composição\n6. Design de logotipo\n7. Marca\n8. Webdesign\n9. Gráficos em movimento\n10. Design de interface do usuário\n\nEngenharia de Software:\n1. Introdução à Ciência da Computação\n2. Algoritmos e Estruturas de Dados\n3. Programação Orientada a Objetos\n4. Projeto de banco de dados\n5. Design e Arquitetura de Software\n6. Desenvolvimento Web\n7. Desenvolvimento de aplicativos móveis\n8. Computação em nuvem\n9. Rede e segurança\n10. Inteligência Artificial e Aprendizado de Máquina"
+  },
+  {
+    "instruction": "Crie um itinerário diário com base nas informações fornecidas.",
+    "input": "Nossa família está procurando uma viagem de 9 dias ao Marrocos com níveis de atividade leves a moderados.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Dia 1: Chegue em Marrakech e explore a cidade. Visite a Mesquita Koutoubia, as Tumbas Saadianas e o Palácio da Bahia.\n\nDia 2: Faça uma viagem de um dia ao Vale Ourika. Aprecie as vistas deslumbrantes das Montanhas Atlas e explore as aldeias berberes locais.\n\nDia 3: Visita ao Jardim Majorelle e ao Museu Yves Saint Laurent.\n\nDia 4: Dirija até Essaouira e explore a antiga medina.\n\nDia 5: Faça um passeio de barco até Iles Purpuraires e explore as ilhas.\n\nDia 6: Dirija até o Deserto do Saara e explore as dunas de Erg Chebbi.\n\nDia 7: Dirija até Fez e explore a antiga medina.\n\nDia 8: Visite o Museu Nejjarine de Artes e Ofícios em Madeira e a Bou Inania Madrasa.\n\nDia 9: Partida de Fez."
+  },
+  {
+    "instruction": "Pense em uma ideia para ajudá-lo a vencer um desafio que lhe foi proposto. Escreva as etapas que você precisa seguir para desenvolver a ideia também.",
+    "input": "O que você pode fazer reciclando e reaproveitando alguns materiais antigos e usados ​​anteriormente? Queremos ver!\nOs projetos devem incorporar algum tipo de material usado – pegue aquela coisa velha e usada e transforme-a em algo novo e diferente!\nO lixo eletrônico é um grande problema. O que você pode fazer usando eletrônicos antigos e outros materiais eletrônicos recuperáveis? \nTemos um prêmio especial para jurados para nosso Instructable favorito que incorpora ou está relacionado à reutilização de lixo eletrônico.\nSeja inteligente e esteja seguro; observe que projetos potencialmente mortais (como máquinas de queima de madeira Lichtenberg/fractal) não poderão ser publicados ou enviados para este concurso.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Etapas para desenvolver a ideia:\n1. Brainstorm de ideias para projetos que podem ser feitos com materiais reciclados e reaproveitados.\n2. Pesquise os materiais necessários para o projeto e os cuidados de segurança que devem ser tomados ao trabalhar com eles.\n3. Crie um plano para o projeto, incluindo uma lista de materiais e ferramentas necessárias.\n4. Reúna os materiais e ferramentas necessários para o projeto.\n5. Siga o plano e crie o projeto.\n6. Tire fotos do projeto e documente o processo.\n7. Submeta o projeto ao desafio.\n8. Divulgue o projeto nas redes sociais e outras plataformas."
+  },
+  {
+    "instruction": "Existem muitos projetos criativos que podemos construir em casa que estão relacionados ao tema determinado, então vamos listar alguns deles.",
+    "input": "Tema: Circuitos",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "1. Crie um jogo de tabuleiro de circuito.\n2. Elabore um projeto de arte baseado em circuito.\n3. Construa um robô controlado por circuito.\n4. Construa um instrumento musical baseado em circuito.\n5. Construa um show de luzes baseado em circuito.\n6. Projete um sistema de alarme baseado em circuito.\n7. Crie um carro de controle remoto baseado em circuito.\n8. Construa um temporizador baseado em circuito.\n9. Projete um sistema de segurança baseado em circuitos.\n10. Construa uma estação meteorológica baseada em circuito."
+  },
+  {
+    "instruction": "Faça uma lista dos materiais que serão necessários para construir a ferramenta fornecida.",
+    "input": "Medidor de Escuridão de Café",
+    "generator": "text-davinci-003-greedy-long",
+    "output": ":\n- Ferro de soldar\n- Solda\n- Multímetro\n- Fios\n- Placa de circuito impresso\n-LEDs\n- Resistor\n- Potenciômetro\n- Suporte de bateria\n- Bateria de 9V\n- Gabinete\n- Parafusos"
+  },
+  {
+    "instruction": "Forneça uma explicação detalhada das etapas necessárias para construir o projeto em questão.",
+    "input": "Motor a vapor usando uma lata de cerveja vazia",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "1. Reúna os materiais necessários: uma lata de cerveja vazia, uma tesoura, uma furadeira, um prego pequeno, um pequeno pedaço de madeira, um elástico, um pequeno pedaço de arame e um pequeno pedaço de papel alumínio.\n\n2. Corte a tampa da lata de cerveja com a tesoura.\n\n3. Faça um pequeno furo na lateral da lata, próximo ao topo.\n\n4. Insira o prego no buraco e prenda-o com o pequeno pedaço de madeira.\n\n5. Enrole o elástico em volta do prego e da lata.\n\n6. Enrole o pequeno pedaço de arame em volta do prego e da lata.\n\n7. Coloque o pequeno pedaço de papel alumínio por cima da lata.\n\n8. Coloque a lata sobre uma fonte de calor, como um fogão ou uma vela.\n\n9. À medida que a lata esquenta, o elástico e o arame farão o prego girar, criando uma máquina a vapor."
+  },
+  {
+    "instruction": "Estime o custo dos suprimentos necessários para criar o projeto determinado e calcule o custo total.",
+    "input": "Refrigerador de água faça você mesmo\nOs itens necessários são: Máquina de fazer gelo, Caixa de gelo/resfriador, Regulador de temperatura, Bomba de aquário x2, Fonte de alimentação de 12V",
+    "generator": "text-davinci-003-greedy-long",
+    "output": ", Tubo de PVC, acessórios de PVC, selante de silicone\n\nMáquina de fazer gelo: $ 50\nGeladeira/refrigerador: $ 20\nRegulador de temperatura: $ 20\nBomba de aquário x2: $ 50\nFonte de alimentação de 12 V: $ 20\nTubo de PVC: $ 10\nAcessórios de PVC: $ 10\nSelante de silicone: $ 5\n\nCusto total: $ 185"
+  },
+  {
+    "instruction": "Responda à seguinte questão de literatura com a maior precisão possível, com base no seu conhecimento de literatura para alunos do ensino médio.",
+    "input": "O que a luz verde simboliza no final do livro?",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Em O Grande Gatsby, a luz verde simboliza esperança, renovação e promessa de futuro. É um símbolo do sonho de Gatsby de se reunir com Daisy e de sua busca pelo sonho americano."
+  },
+  {
+    "instruction": "Faça uma lista de atividades ao ar livre adequadas às condições climáticas.",
+    "input": "Temperatura: 57 F, chuveiros",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "1. Caminhadas na chuva\n2. Observação de aves\n3. Fotografia da natureza\n4. Pesca\n5. Caiaque\n6. Passeio de barco\n7. Geocaching\n8. Acampar\n9. Observação de estrelas\n10. Escalada"
+  },
+  {
+    "instruction": "Em relação ao cenário climático determinado, dê algumas dicas de como adequar os planos de viagem a ele.",
+    "input": "uma mudança repentina de temperatura",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "do quente ao frio\n\n1. Use camadas de roupas para se ajustar à mudança repentina de temperatura.\n2. Leve guarda-chuva ou capa de chuva em caso de chuva.\n3. Leve cobertores extras e roupas quentes para o caso de a temperatura cair ainda mais.\n4. Leve uma garrafa térmica com chá ou café quente para se aquecer.\n5. Verifique a previsão do tempo regularmente para planejar com antecedência.\n6. Considere usar transporte público em vez de dirigir, pois pode ser mais seguro em condições climáticas adversas.\n7. Reserve tempo extra para viagem em caso de atrasos devido ao clima.\n8. Certifique-se de ter o tanque cheio de gasolina em caso de desvios inesperados.\n9. Leve lanches e água em caso de atrasos inesperados.\n10. Tenha um plano B caso o tempo esteja muito severo para viajar."
+  },
+  {
+    "instruction": "Escreva uma lista de tarefas com base nas informações fornecidas.",
+    "input": "Tarefas diárias na farmácia",
+    "generator": "text-davinci-003-greedy-long",
+    "output": ":\n\n1. Cumprimente os clientes e responda a quaisquer dúvidas que eles possam ter.\n2. Receber e processar prescrições.\n3. Abasteça as prateleiras com medicamentos e outros produtos.\n4. Conte e organize o inventário.\n5. Preparar e embalar medicamentos para os clientes.\n6. Manter registros de medicamentos e outros produtos.\n7. Garanta a conformidade com os regulamentos de segurança.\n8. Auxiliar os clientes com a documentação do seguro.\n9. Limpe e organize a farmácia.\n10. Monitore as datas de validade dos medicamentos."
+  },
+  {
+    "instruction": "Responda à seguinte pergunta.",
+    "input": "Como se diz “boa noite” em francês.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Boa noite."
+  },
+  {
+    "instruction": "Que som isso faz?",
+    "input": "bom",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Este som não emite som."
+  },
+  {
+    "instruction": "Este é um teste para a capacidade de leitura do francês. Leia a história contada com atenção e responda à pergunta no final.",
+    "input": "Lucie está em casa com a neta, Lin.\nLúcia: Ah, não! Não temos pão!\nLin: Ah! Você vai ao supermercado?\nLucie: Sim, quero uma baguete para meu sanduíche.\nLin e Lucie têm muito pão?",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Não, eles não têm muito pão."
+  },
+  {
+    "instruction": "Forneça um truque culinário para melhorar o sabor de um determinado alimento.",
+    "input": "Pipoca",
+    "generator": "text-davinci-003-greedy-long",
+    "output": ": Para melhorar o sabor da pipoca, experimente adicionar uma pitada de queijo parmesão ou uma pitada de alho em pó antes de estourar. Você também pode tentar adicionar algumas gotas de manteiga derretida ou azeite de oliva aos grãos antes de estourá-los para obter um sabor mais rico."
+  },
+  {
+    "instruction": "Descreva como preparar o alimento fornecido com suas próprias palavras. Anote os ingredientes de que você precisa e as etapas que você seguirá para prepará-los.",
+    "input": "Biscoitos de chocolate em borracha",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Ingredientes:\n- 2 1/4 xícaras de farinha de trigo\n- 1 colher de chá de bicarbonato de sódio\n- 1 colher de chá de sal\n- 1 xícara (2 palitos) de manteiga amolecida\n- 3/4 xícara de açúcar granulado\n- 3/4 xícara de açúcar mascavo embalado\n- 1 colher de chá de extrato de baunilha\n- 2 ovos grandes\n- 2 xícaras (pacote de 12 onças) de gotas de chocolate meio amargo\n\nEtapas:\n1. Pré-aqueça o forno a 375°F.\n2. Em uma tigela média, misture a farinha, o bicarbonato e o sal.\n3. Em uma tigela grande, bata a manteiga, o açúcar granulado, o açúcar mascavo e o extrato de baunilha até obter um creme claro e fofo.\n4. Junte os ovos, um de cada vez, até incorporar completamente.\n5. Aos poucos, adicione a mistura de farinha à mistura de manteiga, mexendo até incorporar bem.\n6. Junte as gotas de chocolate.\n7. Coloque colheres de sopa cheias de massa em assadeiras não untadas.\n8. Asse por 8 a 10 minutos ou até dourar.\n9. Deixe os biscoitos esfriarem nas assadeiras por alguns minutos antes de transferi-los para uma gradinha para esfriar completamente."
+  },
+  {
+    "instruction": "Resolva o quebra-cabeça Sudoku fornecido.",
+    "input": "O quebra-cabeça Sudoku é:\n|1|  |5|  |  |  |  |8|  |\n|  |  |  |  |  |3|  |6|4|\n|8|3|4|6|7|  |9|  |  |\n|2|9|1|  |  |8|3|7|6|\n|  |  |6|  |  |9|8|1|  |\n|  |  |  |  |  |2|  |  |  |\n|  |2|  |  |9|7|6|  |  |\n|5|4|  |  |  |  |  |9|8|\n|6|1|  |  |  |5|4|3|7|",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "O quebra-cabeça Sudoku resolvido é:\n|1|7|5|2|4|6|9|8|3|\n|9|8|2|1|5|3|7|6|4|\n|8|3|4|6|7|1|9|2|5|\n|2|9|1|5|3|8|3|7|6|\n|4|5|6|7|2|9|8|1|3|\n|7|6|3|4|1|2|5|4|9|\n|3|2|8|9|6|7|6|5|1|\n|5|4|7|3|8|1|2|9|8|\n|6|1|9|8|2|5|4|3|7|"
+  },
+  {
+    "instruction": "Escolha os melhores livros de um determinado gênero.",
+    "input": "Crime e Mistério",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "1. A garota com tatuagem de dragão, de Stieg Larsson\n2. O Código Da Vinci, de Dan Brown\n3. E então não havia nenhum, de Agatha Christie\n4. Garota Exemplar, de Gillian Flynn\n5. O Silêncio dos Inocentes, de Thomas Harris\n6. O Alienista de Caleb Carr\n7. O Nome da Rosa de Umberto Eco\n8. A Garota no Trem, de Paula Hawkins\n9. O Cão dos Baskervilles, de Arthur Conan Doyle\n10. O Assassinato de Roger Ackroyd, de Agatha Christie"
+  },
+  {
+    "instruction": "Dê uma breve descrição do livro que você recebeu.",
+    "input": "Matilde",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "é um romance infantil clássico de Roald Dahl. Conta a história de uma jovem, Matilda, que é um gênio, mas é constantemente subestimada pela família e pela escola. Com a ajuda de sua professora, Miss Honey, Matilda descobre seus próprios poderes especiais e os usa para enganar sua cruel diretora, Miss Trunchbull. Matilda é uma história comovente de coragem e resiliência que celebra o poder da imaginação."
+  },
+  {
+    "instruction": "Caso uma pessoa tenha gostado do livro oferecido, sugira outros livros de que ela também possa gostar.",
+    "input": "O Grande Gatsby",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "por F. Scott Fitzgerald\nO apanhador no campo de centeio, de J. D. Salinger\nAs Vinhas da Ira, de John Steinbeck\nMatar um Mockingbird de Harper Lee\nO Sol Também Nasce, de Ernest Hemingway\nO Senhor dos Anéis de J.R.R. Tolkien\nAs Aventuras de Huckleberry Finn, de Mark Twain\nO Retrato de Dorian Gray de Oscar Wilde\nO Alquimista de Paulo Coelho\nO caçador de pipas de Khaled Hosseini\nJogos Vorazes de Suzanne Collins\nA Culpa é das Estrelas, de John Green\nA Ladra de Livros de Markus Zusak\nAdmirável Mundo Novo de Aldous Huxley\n1984 por George Orwell"
+  },
+  {
+    "instruction": "Indique o gênero do livro ao qual pertence.",
+    "input": "Amor em tempos de cólera",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Romance"
+  },
+  {
+    "instruction": "Resolva esta equação.",
+    "input": "x^3 - 4x^2 + 6x - 24 = 0",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "A solução para esta equação é x = 4, 2, -3."
+  },
+  {
+    "instruction": "Prove a afirmação fornecida usando suas informações.",
+    "input": "\"Se x é um número inteiro positivo ou uma solução para x+3>4, então x>0 e x>12.\"",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Prova:\n\nSeja x um número inteiro positivo ou uma solução para x+3>4.\n\nComo x é um número inteiro positivo, segue-se que x>0.\n\nAgora, vamos supor que x+3>4.\n\nEntão, x>1.\n\nAdicionando 3 a ambos os lados, obtemos x+3>4.\n\nPortanto, x>12.\n\nPortanto, segue-se que x>0 e x>12."
+  },
+  {
+    "instruction": "Com base nos fatos apresentados, prove a seguinte afirmação.",
+    "input": "Instrução: \"Para cada inteiro k, k^2 + 2k + 1 ≥ 0\"\nFato: O quadrado de qualquer número real não é negativo.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Prova: Seja k um número inteiro arbitrário. Então, k^2 + 2k + 1 = (k^2 + 2k) + 1 = k^2 + 2k + (1^2) ≥ k^2 + 2k + 0 = k^2 + 2k ≥ 0. Portanto, para cada número inteiro k, k^2 + 2k + 1 ≥ 0."
+  },
+  {
+    "instruction": "Verifique a veracidade da afirmação dada.",
+    "input": "\"Para todos os inteiros j e k, se j e k são ímpares, então jk é ímpar.\"",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Esta afirmação é verdadeira."
+  },
+  {
+    "instruction": "Forneça uma fórmula para calcular o enésimo termo na sequência dada",
+    "input": "5, 14, 23, 32, 41, ...",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "enésimo termo = 5 + (n - 1) * 9"
+  },
+  {
+    "instruction": "Crie uma tabela listando todos os jogos que atendem aos critérios especificados na National Football League. Use a temporada, horário local, jogo e pontuação como colunas da tabela.",
+    "input": "Jogos em casa dos Ravens em 2011",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "| Temporada | Hora Local | Jogo | Pontuação |\n|-------|-----------|------|-------|\n| 2011 | 13h | Ravens x Steelers | 35-7 |\n| 2011 | 13h | Ravens x Bengals | 24-16 |\n| 2011 | 13h | Corvos x Marrons | 20-14 |\n| 2011 | 13h | Ravens vs. Texanos | 29-14 |\n| 2011 | 13h | Ravens x 49ers | 16-6 |\n| 2011 | 13h | Corvos vs. Carneiros | 37-7 |\n| 2011 | 13h | Ravens vs. 22-17 |\n| 2011 | 13h | Ravens vs. Cardeais | 30-27 |\n| 2011 | 13h | Corvos vs. Jaguares | 12-7 |\n| 2011 | 13h | Corvos vs. Titãs | 24-10 |\n| 2011 | 13h | Ravens x Colts | 24-10 |\n| 2011 | 13h | Ravens vs. 13-10 |"
+  },
+  {
+    "instruction": "Usando uma tabela, compare as visões gerais da carreira de determinados jogadores na Liga Principal de Beisebol. Use \"|\" para separar as colunas da tabela.",
+    "input": "Derek Jeter, Albert Pujols",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "| Jogador | Visão geral da carreira |\n| --- | --- |\n| Derek Jeter | Carreira de 20 anos no New York Yankees; 5 vezes campeão da World Series; 14 vezes All-Star; Vencedor 5 vezes do prêmio Gold Glove; MVP da AL de 2000 |\n| Alberto Pujols | Carreira de 20 anos no St. Louis Cardinals, Los Angeles Angels e Kansas City Royals; 3 vezes campeão da World Series; 10 vezes All-Star; 2 vezes vencedor do prêmio Gold Glove; MVP da Holanda de 2005 |"
+  },
+  {
+    "instruction": "Seu conhecimento de piadas e aforismos clássicos será testado ao completar o aforismo fornecido. Escreva a citação original como resposta.",
+    "input": "duas coisas são infinitas",
+    "generator": "text-davinci-003-greedy-long",
+    "output": ": o universo e a estupidez humana\n\n“O mundo é um lugar perigoso para se viver; não por causa das pessoas que são más, mas por causa das pessoas que não fazem nada a respeito.” -Albert Einstein"
+  },
+  {
+    "instruction": "Deve ser compilada uma lista de todos os filmes que atendem aos critérios fornecidos.",
+    "input": "filmes dirigidos por Spike Lee por data de lançamento",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "1. Ela precisa disso (1986)\n2. Escola Daze (1988)\n3. Faça a coisa certa (1989)\n4. Mo'Better Blues (1990)\n5. Febre da Selva (1991)\n6. Malcolm X (1992)\n7. Crooklyn (1994)\n8. Relógios (1995)\n9. Garota 6 (1996)\n10. Ele pegou o jogo (1998)\n11. Verão de Sam (1999)\n12. Enganado (2000)\n13. 25ª Hora (2002)\n14. Ela me odeia (2004)\n15. Homem Interior (2006)\n16. Milagre em Santa Ana (2008)\n17. Verão Red Hook (2012)\n18. O Doce Sangue de Jesus (2014)\n19. Chi-Raq (2015)\n20. Negro da Klan (2018)"
+  },
+  {
+    "instruction": "Usando uma determinada quantidade, determine uma gorjeta apropriada.",
+    "input": "Gorjeta de 14% sobre $ 47,50",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "seria $ 6,65."
+  },
+  {
+    "instruction": "Identifique todas as palavras que correspondem ao padrão fornecido.",
+    "input": "H_AR_",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "DURO, DANO, HARK"
+  },
+  {
+    "instruction": "Invente palavras que rimem com a palavra dada.",
+    "input": "instruir",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "conduzir, construir, destruir, induzir, cruzar, objetar, aperfeiçoar, refletir, selecionar, suspeitar."
+  },
+  {
+    "instruction": "Procure poemas que mencionem determinado objeto ou personagem. Deverão ser escritos os nomes dos poemas e de seus poetas.",
+    "input": "Papai Noel",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "1. \"Papai Noel\" de Ogden Nash\n2. \"Papai Noel está vindo para a cidade\", de John Frederick Coots e Haven Gillespie\n3. \"Papai Noel está chegando\", de Clement Clarke Moore\n4. \"Papai Noel\", de Robert Louis Stevenson\n5. \"Papai Noel\", de Robert William Service\n6. \"Papai Noel\" de William Rose Benet\n7. \"Papai Noel\" de Robert Graves\n8. \"Papai Noel\", de Robert P. Tristram Coffin\n9. \"Papai Noel\", de Robert Frost\n10. \"Papai Noel\", de Langston Hughes"
+  },
+  {
+    "instruction": "Responda ao último texto do chat usando os emojis corretos para transmitir seus sentimentos.",
+    "input": "+ Ei, como foram seus exames?\n- Eles estavam bem. Estou feliz que eles tenham acabado.\n+ Sim, eu sei como você se sente. Estou feliz por não precisar mais me preocupar com eles.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": null
+  },
+  {
+    "instruction": "Para responder ao chat, pense em uma resposta engraçada que você possa usar.",
+    "input": "+ como você está?",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Estou indo muito bem! E você?"
+  },
+  {
+    "instruction": "A última mensagem do chat é uma resposta parcial. Você deve completá-lo e reescrevê-lo.",
+    "input": "+ O que vamos fazer agora?\n- Não sei. Tive que desistir do meu sonho de ser matemático.\n+ Por que",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "você teve que desistir do seu sonho?\n- Não tive recursos nem apoio para prosseguir. Mas ainda estou procurando maneiras de usar minhas habilidades e conhecimentos de maneira significativa."
+  },
+  {
+    "instruction": "Mude a resposta para ter um tom mais empático no chat.",
+    "input": "+ Como você está?\n- Tudo bem, tive muitos problemas hoje.\n+ Que tipo de problemas?",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Lamento ouvir isso. Você pode me contar mais sobre o que aconteceu?"
+  },
+  {
+    "instruction": "Atualmente, existe um chat no qual as pessoas estão marcando um encontro no futuro. Recupere as informações da reunião da conversa.",
+    "input": "Pessoa 1: Ei, quando você está livre? Eu gostaria de me encontrar.\nPessoa 2: Estou livre amanhã à tarde.\nPessoa 1: Ótimo, que horas?\nPessoa 2: Que tal às 15h?\nPessoa 1: Tenho outra reunião nesse horário. que tal às 17h?\nPessoa 2: Isso funciona. Onde devemos nos encontrar?\nPessoa 1: Que tal a cafeteria na Main Street?\nPessoa 2: Parece bom. Ouvi dizer que eles tomam um ótimo café lá. Vejo você amanhã!",
+    "generator": "text-davinci-003-greedy-long",
+    "output": ""
+  },
+  {
+    "instruction": "O texto fornecido deve ser classificado como ofensivo ou não ofensivo.",
+    "input": "Você agiu como uma louca ontem à noite.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Não é ofensivo."
+  },
+  {
+    "instruction": "Faça um breve resumo da intenção do diálogo que acabou de acontecer.",
+    "input": "Cliente: Olá, estou procurando um novo telefone.\nAI: Olá! Que tipo de telefone você está procurando?\nCliente: Não tenho certeza. Talvez algo com uma boa câmera?\nAI: Temos alguns telefones com ótimas câmeras. Gostaria de ver algumas opções?\nCliente: Sim, isso seria ótimo.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "A intenção do diálogo era que o cliente encontrasse um novo telefone com uma boa câmera, e a IA estava ajudando o cliente oferecendo algumas opções."
+  },
+  {
+    "instruction": "Descreva o conteúdo do artigo de forma resumida.",
+    "input": "Um estudo publicado no início deste ano por Zee e sua equipe examinou o papel da luz no sono de adultos saudáveis ​​na faixa dos 20 anos. Dormir apenas uma noite com pouca luz, como uma TV com o som desligado, aumentou o açúcar no sangue e a frequência cardíaca dos jovens durante o experimento do laboratório do sono. Estudos anteriores demonstraram que uma frequência cardíaca elevada à noite é um fator de risco para futuras doenças cardíacas e morte precoce, enquanto níveis mais elevados de açúcar no sangue são um sinal de resistência à insulina, que pode levar ao diabetes tipo 2.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "O estudo concluiu que mesmo uma pequena exposição à luz durante a noite pode ter um impacto significativo na saúde."
+  },
+  {
+    "instruction": "Corrija a transcrição de um trecho contendo erros.",
+    "input": "Recebi juros apenas no cartão de crédito, mas paguei meu saldo em um dia na data de vencimento. Ainda não perdi um ano de pavimentação. Cara, você reverte a cobrança de juros?",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Recebi juros no meu cartão de crédito, mas paguei o saldo total um dia antes da data de vencimento. Ainda não perdi um pagamento há um ano. Você pode reverter a cobrança de juros?"
+  },
+  {
+    "instruction": "Dê uma olhada no contrato e extraia dele as partes do acordo.",
+    "input": "A partir de 13 de dezembro de 2021, este Contrato de Gravação Musical (\"Contrato\") será celebrado entre Good Kid, um grupo musical com sede em Toronto (\"Artista\"), e Universal Music Group, uma gravadora com número de licença 545345 (\"Gravadora\"). O Artista e a Gravadora podem ser referidos neste Contrato individualmente como “Partes” e coletivamente como “Partes”. Os trabalhos sob este Contrato começarão em 15 de março de 2022 e durarão durante a vigência do Contrato.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": ""
+  },
+  {
+    "instruction": "Com base no assunto do email, determine se o email deve ser tratado como spam ou não.",
+    "input": "Os dermatologistas não gostam dela!",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Este e-mail não deve ser tratado como spam."
+  },
+  {
+    "instruction": "Classifique o tweet em uma das três categorias a seguir: evento, demonstração ou notícia. Evento é um acontecimento, muitas vezes social ou público, do qual as pessoas participam ou do qual têm conhecimento. Demo é uma exibição ou apresentação pública de algo, normalmente para promovê-lo ou anunciá-lo. E notícias são informações sobre eventos ou acontecimentos recentes, especialmente conforme relatados pela mídia.",
+    "input": "Usando este tutorial, você pode analisar e classificar a avaliação de um usuário como positiva ou negativa usando recursos de análise de sentimento em um aplicativo Next.js existente. Mostramos como aproveitar a IA de linguagem em seus aplicativos. Confira ↓",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Demonstração"
+  },
+  {
+    "instruction": "Dê uma categoria ao título da notícia. Escolha uma categoria na lista de Notícias e novidades, Viagens, Estilo, Artes e Cultura, Política, Tecnologia e Ciência e Saúde.",
+    "input": "A exposição #Banksy em Cambridge, MA é absolutamente fantástica.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Artes e Cultura"
+  },
+  {
+    "instruction": "Classifique as perguntas nas Perguntas frequentes em Encontrar detalhes da apólice, Alterar configurações da conta, Registrar uma reclamação e visualizar o status ou Cancelar cobertura.",
+    "input": "Você poderia depositar dinheiro em minha conta em vez de me enviar um cheque físico?",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Alterar configurações da conta"
+  },
+  {
+    "instruction": "Escolha um título atraente para sua postagem.",
+    "input": "O abacate típico tem mais de 300 calorias provenientes do óleo que contém. Essa é a quantidade de calorias em uma barra de chocolate grande. Se você fizer exercícios suficientes para comer uma barra de chocolate grande todos os dias sem ganhar peso, não seria um problema comer um abacate todos os dias. Caso contrário, você provavelmente deveria comê-los com moderação.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "\"A surpreendente contagem de calorias dos abacates: comer um por dia é demais?\""
+  },
+  {
+    "instruction": "Dê alguns exemplos do que as pessoas costumam dizer em determinada situação social.",
+    "input": "quando alguém chega em segurança",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "depois de uma longa viagem:\n\n1. \"Bem-vindo de volta! Sentimos sua falta!\"\n2. \"Que bom que você conseguiu inteiro!\"\n3. \"É tão bom ver você!\"\n4. “Estávamos preocupados com você!”\n5. “É ótimo ter você em casa!”"
+  },
+  {
+    "instruction": "Você deverá escrever algumas perguntas da seção de entrevistas da empresa.",
+    "input": "Kohl's",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "1. Que experiência você tem trabalhando em um ambiente de atendimento ao cliente?\n2. Como você lidaria com uma situação difícil do cliente?\n3. O que você acha que torna um representante de atendimento ao cliente bem-sucedido?\n4. Como você se mantém organizado e gerencia diversas tarefas?\n5. O que você acha que diferencia a Kohl's de outros varejistas?\n6. Como você lida com o trabalho em um ambiente de ritmo acelerado?\n7. Descreva uma ocasião em que você teve que pensar rapidamente e resolver um problema.\n8. Qual você acha que é a qualidade mais importante que um representante de atendimento ao cliente deve possuir?\n9. Como você lida com o trabalho em equipe para atingir um objetivo comum?\n10. Qual você acha que é a chave para fornecer um excelente atendimento ao cliente?"
+  },
+  {
+    "instruction": "Com base nas informações fornecidas, você precisa estimar o resumo médio para um determinado trabalho.",
+    "input": "Escriturário de entrada de dados nos Estados Unidos",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "O salário médio de um funcionário de entrada de dados nos Estados Unidos é de US$ 31.845 por ano."
+  },
+  {
+    "instruction": "Descreva as responsabilidades do trabalho determinado.",
+    "input": "Oficial de segurança",
+    "generator": "text-davinci-003-greedy-long",
+    "output": ":\n\nUm oficial de segurança é responsável por proteger pessoas, propriedades e ativos contra danos. Isso inclui monitorar as instalações, responder a alarmes, realizar patrulhas e aplicar regulamentos de segurança. Eles também podem ser responsáveis ​​​​por investigar incidentes, redigir relatórios e fornecer atendimento ao cliente. Os agentes de segurança devem ser capazes de permanecer alertas e vigilantes em todos os momentos e devem ser capazes de responder rápida e eficazmente a quaisquer questões relacionadas com a segurança."
+  },
+  {
+    "instruction": "Forneça uma lista das habilidades que podem ajudá-lo a encontrar o emprego.",
+    "input": "Membros da tripulação",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "1. Excelentes habilidades de atendimento ao cliente\n2. Capacidade de trabalhar em um ambiente de ritmo acelerado\n3. Capacidade de trabalhar de forma independente e como parte de uma equipe\n4. Capacidade de seguir orientações e seguir instruções\n5. Capacidade de realizar múltiplas tarefas e priorizar tarefas\n6. Capacidade de lidar com transações em dinheiro e crédito\n7. Conhecimento das normas de segurança alimentar e saneamento\n8. Conhecimento de preparação e apresentação de alimentos\n9. Capacidade de levantar e transportar itens pesados\n10. Capacidade de ficar em pé por longos períodos de tempo\n11. Capacidade de trabalhar em horários flexíveis, incluindo noites e fins de semana\n12. Capacidade de comunicar-se eficazmente com clientes e colegas de trabalho\n13. Capacidade de trabalhar em ambiente quente e úmido\n14. Capacidade de trabalhar em ambientes barulhentos\n15. Capacidade de trabalhar com supervisão mínima"
+  },
+  {
+    "instruction": "Agende as reuniões com base nas informações fornecidas.",
+    "input": "Pessoa1: disponível das 9h às 11h, duração da reunião: 30 min \nPessoa2: disponível das 13h às 15h, duração da reunião: 90 min\nPessoa3: disponível das 14h às 15h30, duração da reunião: 60 min",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Reunião 1: 9h às 9h30 com Pessoa1 \nReunião 2: 13h-14h30 com Pessoa2 \nReunião 3: 14h-15h30 com Pessoa3"
+  },
+  {
+    "instruction": "Encontre as direções entre os locais fornecidos.",
+    "input": "De: Rowan Avenue Elementary School, 600 S Rowan Ave, Los Angeles, CA 90023, Estados Unidos\nPara: Calvary Cemetery and Mortuary, 4201 Whittier Blvd, Los Angeles, CA 90023, Estados Unidos",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "1. Siga para o sul na S Rowan Ave em direção à W 60th St\n2. Vire à esquerda na W 60th St\n3. Vire à direita na S Main St\n4. Vire à esquerda na E Whittier Blvd\n5. Vire à direita na N Soto St\n6. Vire à esquerda na E Whittier Blvd\n7. Vire à direita na N Rowan Ave\n8. Vire à esquerda na Whittier Blvd\n9. O destino estará à direita"
+  },
+  {
+    "instruction": "Dê uma breve explicação da parte solicitada do artigo.",
+    "input": "Artigo: Os modelos de transdução de sequência dominante são baseados em redes neurais complexas recorrentes ou convolucionais que incluem um codificador e um decodificador. Os modelos de melhor desempenho também conectam o codificador e o decodificador por meio de um mecanismo de atenção. Propomos uma nova arquitetura de rede simples, o Transformer, baseada exclusivamente em mecanismos de atenção, dispensando totalmente recorrência e convoluções. Experimentos em duas tarefas de tradução automática mostram que esses modelos são superiores em qualidade, ao mesmo tempo que são mais paralelizáveis ​​e exigem significativamente menos tempo para treinar. Nosso modelo atinge 28,4 BLEU na tarefa de tradução de inglês para alemão do WMT 2014, melhorando os melhores resultados existentes, incluindo conjuntos, em mais de 2 BLEU. Na tarefa de tradução de inglês para francês do WMT 2014, nosso modelo estabelece uma nova pontuação BLEU de última geração de modelo único de 41,8 após treinamento por 3,5 dias em oito GPUs, uma pequena fração dos custos de treinamento dos melhores modelos da literatura. Mostramos que o Transformer generaliza bem para outras tarefas, aplicando-o com sucesso à análise de constituintes ingleses, tanto com dados de treinamento grandes quanto limitados.\nExplique: Os modelos de transdução de sequência dominante",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "são baseados em redes neurais recorrentes ou convolucionais complexas que incluem um codificador e um decodificador. O Transformer é uma nova arquitetura de rede simples que se baseia exclusivamente em mecanismos de atenção, dispensando totalmente a recorrência e as convoluções. Experimentos em duas tarefas de tradução automática mostram que o Transformer é superior em qualidade, ao mesmo tempo que é mais paralelizável e requer significativamente menos tempo para treinar. O Transformer também foi aplicado com sucesso à análise de constituintes ingleses com dados de treinamento grandes e limitados."
+  },
+  {
+    "instruction": "Responda à pergunta sobre o artigo depois de lê-lo com atenção.",
+    "input": "Para avaliar se o Transformer pode generalizar para outras tarefas, realizamos experimentos de análise de constituintes ingleses. Esta tarefa apresenta desafios específicos: o produto está sujeito a fortes restrições estruturais e é significativamente mais longo do que o input. Além disso, os modelos RNN sequência a sequência não foram capazes de obter resultados de última geração em regimes de pequenos dados.\nPergunta: O que é a análise do eleitorado inglês?",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Resposta: A análise de constituintes ingleses é uma tarefa que envolve analisar a estrutura de uma frase, dividindo-a em suas partes componentes (constituintes) e rotulando-as de acordo com sua função sintática."
+  },
+  {
+    "instruction": "Converta o HTML fornecido no formato Markdown.",
+    "input": "<code>Use `code` em seu arquivo Markdown.</code>",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "`Use `code` em seu arquivo Markdown.`"
+  },
+  {
+    "instruction": "Extraia o método que foi utilizado na pesquisa do resumo do artigo. Forneça as sentenças exatas do resumo que discutem o método.",
+    "input": "Apresentamos um sistema de reconhecimento de fala de última geração desenvolvido usando aprendizado profundo de ponta a ponta. Nossa arquitetura é significativamente mais simples do que os sistemas de fala tradicionais, que dependem de pipelines de processamento cuidadosamente projetados; esses sistemas tradicionais também tendem a ter um desempenho ruim quando usados ​​em ambientes barulhentos. Em contraste, nosso sistema não precisa de componentes projetados à mão para modelar ruído de fundo, reverberação ou variação de alto-falante, mas aprende diretamente uma função que é robusta a tais efeitos. Não precisamos de um dicionário de fonemas, nem mesmo do conceito de “fonema”. A chave para nossa abordagem é um sistema de treinamento RNN bem otimizado que usa múltiplas GPUs, bem como um conjunto de novas técnicas de síntese de dados que nos permitem obter com eficiência uma grande quantidade de dados variados para treinamento. Nosso sistema, chamado Deep Speech, supera os resultados publicados anteriormente no amplamente estudado Switchboard Hub5'00, atingindo 16,0% de erro no conjunto de testes completo. O Deep Speech também lida melhor com ambientes ruidosos desafiadores do que os sistemas de fala comerciais de última geração amplamente utilizados.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "\"Apresentamos um sistema de reconhecimento de fala de última geração desenvolvido usando aprendizagem profunda de ponta a ponta.\"\n“A chave para nossa abordagem é um sistema de treinamento RNN bem otimizado que usa múltiplas GPUs, bem como um conjunto de novas técnicas de síntese de dados que nos permitem obter com eficiência uma grande quantidade de dados variados para treinamento.”"
+  },
+  {
+    "instruction": "Você precisa encontrar os nomes de alguns dos artigos relacionados ao artigo que lhe foi fornecido.",
+    "input": "RoMQA: uma referência para respostas robustas, com múltiplas evidências e com múltiplas respostas a perguntas",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "1. Resposta a perguntas com múltiplas evidências: uma pesquisa\n2. Resposta robusta a perguntas: uma revisão abrangente\n3. Resposta a perguntas com múltiplas evidências: desafios e oportunidades\n4. Resposta a perguntas com múltiplas evidências: uma abordagem sistemática\n5. Resposta robusta a perguntas com múltiplas evidências: uma análise comparativa\n6. Resposta a perguntas com múltiplas evidências: uma abordagem inovadora\n7. Resposta robusta a perguntas com múltiplas evidências: uma avaliação abrangente\n8. Resposta a perguntas com múltiplas evidências: uma estrutura de avaliação abrangente\n9. Resposta robusta a perguntas com múltiplas evidências: uma referência abrangente\n10. Resposta a perguntas com múltiplas evidências: uma estrutura abrangente de avaliação e benchmarking"
+  },
+  {
+    "instruction": "Crie um resumo curto e conciso do artigo com base em seu resumo.",
+    "input": "O aprendizado rápido (FSL) é uma das principais etapas futuras do aprendizado de máquina e chama muita atenção. Neste artigo, nos concentramos no problema FSL de compreensão do diálogo, que contém duas tarefas intimamente relacionadas: detecção de intenções e preenchimento de slots. Foi comprovado que a compreensão do diálogo se beneficia muito com o aprendizado conjunto das duas subtarefas. No entanto, essa aprendizagem conjunta torna-se um desafio nos cenários de poucas tentativas: por um lado, a escassez de amostras aumenta enormemente a dificuldade de modelar a ligação entre as duas tarefas; por outro lado, como aprender conjuntamente múltiplas tarefas no cenário de poucas tacadas é ainda menos investigado. Em resposta a isso, apresentamos o FewJoint, o primeiro benchmark FSL para a compreensão do diálogo conjunto. FewJoint fornece um novo corpus com 59 domínios de diálogo diferentes de API industrial real e uma plataforma de código para facilitar a configuração de experimentos FSL, que deverão avançar na pesquisa neste campo. Além disso, descobrimos que o desempenho insuficiente da configuração de poucos disparos muitas vezes leva a um compartilhamento ruidoso entre duas subtarefas e perturba a aprendizagem conjunta. Para resolver isso, orientamos o slot com informações de intenção explícitas e propomos um novo mecanismo de controle de confiança que bloqueia informações de intenção de baixa confiança para garantir um compartilhamento de alta qualidade. Além disso, introduzimos uma estratégia de meta-aprendizagem baseada em répteis para obter uma melhor generalização em domínios invisíveis de poucos disparos. Nos experimentos, o método proposto traz melhorias significativas em dois conjuntos de dados e alcança um novo desempenho de última geração.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": ""
+  },
+  {
+    "instruction": "Você precisará compor a notação ABC para uma determinada música.",
+    "input": "O Vento Sul",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "X:1\nT:O Vento Sul\nM:4/4\nL:1/8\nK:D\nD2|:F2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nF2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nF2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nF2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|d2A2 B2d2|e2f2 g2e2|\nD2A2 B2d2|e2f2 g2e2|"
+  },
+  {
+    "instruction": "Categorize a revista com base em seu conteúdo em uma das categorias: Política, Notícias de Entretenimento, Notícias de Tecnologia, Notícias de Negócios, Paternidade e Crianças, Saúde e Cura, Culinária, Comida e Vinho e Artes e Literatura,",
+    "input": "Inc.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Revista\n\nNotícias de negócios"
+  },
+  {
+    "instruction": "Decida se o e-mail fornecido pertence à categoria Promoções ou Social.",
+    "input": "Assunto: Você tem um convite\nE-mail: Olá, gostaria de ingressar na sua rede do LinkedIn.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Social"
+  },
+  {
+    "instruction": "A história de um filme foi descrita usando muitos emojis. Você precisa adivinhar o nome do filme com base nos emojis.",
+    "input": ".",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "️\n\nHarry Potter e a Pedra Filosofal"
+  },
+  {
+    "instruction": "Mude a primeira pessoa para a terceira pessoa na frase dada. O significado deve ser mantido, mas você pode parafraseá-lo ou ampliá-lo para ter uma pose melhor.",
+    "input": "Recentemente, conseguimos aumentar a quantidade de stock que mantemos com o mesmo fornecedor, reduzindo assim o nosso risco.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Recentemente, conseguiram aumentar a quantidade de stock mantido com o mesmo fornecedor, reduzindo assim o risco."
+  },
+  {
+    "instruction": "Você deve colocar a frase em maiúscula de acordo com o guia.",
+    "input": "Guia: Todas as outras letras alternam entre minúsculas e maiúsculas.\nFrase: Uma aranha gigante bloqueia seu caminho.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Uma aranha gigante bloqueia seu caminho."
+  },
+  {
+    "instruction": "Crie aliterações encontrando sinônimos para palavras em uma frase específica.",
+    "input": "David usa chapéu todos os dias.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Dapper David faz um clássico arrojado diariamente."
+  },
+  {
+    "instruction": "Converta a descrição fornecida em um comando bash.",
+    "input": "leia as primeiras 10 linhas de f",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "1.txt\n\ncabeça -n 10 f1.txt"
+  },
+  {
+    "instruction": "Por favor, prepare uma tabela contendo um resumo das informações dos participantes da conferência.",
+    "input": "A conferência foi convocada para discutir como melhorar a qualidade da educação nas escolas. O orador principal foi o Professor Crew Purdie (cpurdie@email.com), que falou sobre a importância de estabelecer padrões elevados para alunos e professores. Ele disse que as escolas devem ser lugares onde os alunos possam aprender e ser desafiados. Outros palestrantes incluíram o professor Oliver Malachi (oliver@email.com) e o pai Kolby Reese (kolbyreese82@email.com). A professora falou sobre a necessidade dos professores estarem bem preparados e terem grandes expectativas em relação aos seus alunos. O pai falou sobre a necessidade dos pais se envolverem na educação dos filhos. Houve também uma discussão sobre a importância do financiamento para as escolas.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Nome | Endereço de e-mail | Função\n--- | --- | ---\nProfessor Tripulação Purdie | cpurdie@email.com | Alto-falante principal\nProfessor Oliver Malaquias | oliver@email.com | Palestrante\nPai Kolby Reese | kolbyreese82@email.com | Palestrante"
+  },
+  {
+    "instruction": "Liste os conceitos que devem ser aprendidos antes de abordar um determinado conceito complexo.",
+    "input": "Aprendizado profundo",
+    "generator": "text-davinci-003-greedy-long",
+    "output": ":\n\n1. Aprendizado de máquina\n2. Redes Neurais\n3. Inteligência Artificial\n4. Estruturas de dados e algoritmos\n5. Álgebra Linear\n6. Probabilidade e Estatística\n7. Cálculo\n8. Programação de Computador\n9. Técnicas de otimização\n10. Pré-processamento de dados"
+  },
+  {
+    "instruction": "Dada uma frase que pode ser ambígua, reescreva-a usando palavras menos ambíguas.",
+    "input": "O frango está pronto para comer.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "O frango está cozido e pronto para ser consumido."
+  },
+  {
+    "instruction": "Avalie o sentimento de um determinado tweet e classifique-o como Positivo, Negativo ou Neutro.",
+    "input": "\"Este é o melhor papel de cola que encontrei em MUITO tempo.\"",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Positivo"
+  },
+  {
+    "instruction": "Você recebe um comando Python e é obrigado a convertê-lo em Ruby.",
+    "input": "print(\"Olá mundo!\")",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "coloca \"Olá, mundo!\""
+  },
+  {
+    "instruction": "Você recebe uma frase em lógica de primeira ordem. Traduza-o para linguagem natural.",
+    "input": "∃x∀y(soldado(x)→geral(x,y))",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Existe um x tal que para todo y, se x é um soldado, então x é um general de y.\n\nTradução: Há pelo menos um soldado que é general de todos."
+  },
+  {
+    "instruction": "Você recebe uma consulta de pesquisa e um documento. Classifique se o documento é relevante para a consulta de pesquisa ou não.",
+    "input": "Pesquisa: por que o céu é azul\nDocumento: A resposta curta: A luz solar atinge a atmosfera da Terra e é espalhada em todas as direções por todos os gases e partículas do ar. A luz azul é mais espalhada do que as outras cores porque viaja em ondas menores e mais curtas. É por isso que vemos um céu azul na maior parte do tempo.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Relevante."
+  },
+  {
+    "instruction": "Crie uma lista de subtópicos para um determinado tópico.",
+    "input": "Teoria musical",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "1. Notação\n2. Balanças\n3. Acordes\n4. Intervalos\n5. Chaves\n6. Ritmo\n7. Harmonia\n8. Transposição\n9. Modulação\n10. Forma e Estrutura"
+  },
+  {
+    "instruction": "Resuma o filme de uma forma sarcástica. Tente explicar o filme em apenas uma frase.",
+    "input": "O Iluminado",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "é um filme de terror sobre uma família que passa o inverno em um hotel mal-assombrado, apenas para descobrir que os verdadeiros monstros são aqueles que vivem dentro de suas próprias cabeças."
+  },
+  {
+    "instruction": "Digite as palavras que satisfazem a condição fornecida.",
+    "input": "5 países que começam com S",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "1. Espanha\n2. Suécia\n3. Suíça\n4. Sérvia\n5. Sudão"
+  },
+  {
+    "instruction": "Forneça um nome para o prato de acordo com os ingredientes e instruções.",
+    "input": "INGREDIENTES:\n2 latas (5 onças) de atum albacora branco sólido Bumble Bee®, escorrido\n1 abacate\n2 colheres de sopa de Sriracha\n1 colher de sopa de mostarda Dijon\n2 a 3 colheres de sopa de aipo picado\n2 colheres de sopa de cebola roxa picada\n2 cebolas verdes picadas\n1 colher de sopa de coentro fresco picado\nSal e pimenta a gosto\n2 xícaras cheias de alface verde\n1 xícara de cenoura palito de fósforo\n4 (10 polegadas) tortilhas de trigo integral\nINSTRUÇÕES:\nEm uma tigela média, amasse o atum e o abacate até incorporar. Adicione o restante dos ingredientes através do sal e da pimenta, misturando bem.\nPara montar, cubra cada tortilha com 1/2 xícara de folhas verdes, 1/4 xícara de cenoura palito de fósforo e divida a mistura de atum igualmente entre os wraps. Enrole bem a tortilha, corte e divirta-se!",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Wraps picantes de atum e abacate"
+  },
+  {
+    "instruction": "Resuma uma reunião a partir da lista fornecida de marcadores. Certifique-se de converter a taquigrafia em um relato de primeira mão.",
+    "input": "Rose: Analisar dados e apresentar descobertas\nJohn: propor uma nova ideia\nJane: nomeada para chefiar o projeto\nTom: preciso de mais tempo para corrigir bug de software",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Na reunião, Rose apresentou sua análise dos dados e suas conclusões. John propôs uma nova ideia e Jane foi nomeada para chefiar o projeto. Tom mencionou que eles precisavam de mais tempo para consertar um bug de software."
+  },
+  {
+    "instruction": "Liste algumas músicas populares de um determinado álbum.",
+    "input": "De volta ao preto",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "(Amy Winehouse)\nReabilitação (Amy Winehouse)\nVocê sabe que não presto (Amy Winehouse)\nEu e o Sr. Jones (Amy Winehouse)\nApenas amigos (Amy Winehouse)\nLágrimas secam sozinhas (Amy Winehouse)\nO amor é um jogo perdido (Amy Winehouse)\nAcorde Sozinho (Amy Winehouse)\nAlguma Guerra Profana (Amy Winehouse)\nEle só pode segurá-la (Amy Winehouse)\nViciada (Amy Winehouse)"
+  },
+  {
+    "instruction": "Invente uma nova palavra com base na descrição da palavra.",
+    "input": "A sensação de saber, enquanto você ainda está no momento, que algo que está acontecendo será lembrado para sempre.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Lembrança"
+  },
+  {
+    "instruction": "Dada uma linguagem de programação e o nome de uma função, escreva um comando para mostrar como usar a função.",
+    "input": "Linguagem: Python\nFunção: entrada",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "()\n\nComando: print(\"Digite um valor:\") valor = input()"
+  },
+  {
+    "instruction": "Faça um elogio agradável com base na qualidade que você recebeu.",
+    "input": "Veracidade",
+    "generator": "text-davinci-003-greedy-long",
+    "output": ": Você é sempre tão honesto e confiável. É uma qualidade que admiro muito."
+  },
+  {
+    "instruction": "Crie uma breve introdução ao currículo usando as informações a seguir.",
+    "input": "nome: Marcos\nnacionalidade: italiana\nidioma: Inglês\natributos: criativo, orientado para objetivos, motivado\nhabilidades: engenharia de software, marketing de conteúdo",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Sou Mark, um cidadão italiano com uma atitude criativa, orientada para objetivos e motivada. Tenho vasta experiência em engenharia de software e marketing de conteúdo."
+  },
+  {
+    "instruction": "Faça uma lista de adjetivos que podem ser usados ​​para descrever uma determinada marca.",
+    "input": "uma startup de tecnologia criativa",
+    "generator": "text-davinci-003-greedy-long",
+    "output": ":\n\n-Inovador\n-Dinâmico\n-Pensar no futuro\n- Vanguarda\n-Ágil\n-Disruptivo\n-Inovador\n-Revolucionário\n-Ambicioso\n-Progressivo\n-Engenhoso\n-Intuitivo\n-Adaptável\n-Flexível"
+  },
+  {
+    "instruction": "Alguém lhe dá algumas informações sobre onde deseja ir e o que gosta de ver e fazer. Descreva uma viagem adequada para eles e encontre as melhores paradas e atividades no caminho.",
+    "input": "Estou procurando uma viagem pela costa oeste. Meu objetivo é começar perto de San Diego e viajar para Los Angeles.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Gosto de ver a natureza, visitar locais históricos e experimentar novas comidas.\n\nEsta é uma ótima viagem! Você experimentará o melhor da costa oeste. \n\nComeçando em San Diego, você pode visitar o Zoológico de San Diego, o Balboa Park e o USS Midway Museum. Você também pode fazer uma viagem de um dia a La Jolla para explorar as praias e piscinas naturais. \n\nDe San Diego, você pode dirigir pela costa até Orange County. Aqui você pode visitar a Missão San Juan Capistrano, o Museu de Arte de Laguna Beach e o Parque Estadual Crystal Cove. \n\nEm seguida, você pode dirigir até Los Angeles. Ao longo do caminho, você pode parar em Santa Bárbara para visitar a Missão Santa Bárbara e o Zoológico de Santa Bárbara. Você também pode fazer um desvio para Solvang para vivenciar a cultura dinamarquesa e experimentar um pouco da comida local. \n\nAo chegar a Los Angeles, você poderá explorar a Calçada da Fama de Hollywood, o Observatório Griffith e o Getty Center. Você também pode fazer uma viagem de um dia a Santa Monica para visitar o Píer de Santa Monica e o Third Street Promenade. \n\nEsta é uma ótima viagem que lhe dará a oportunidade de vivenciar o melhor da costa oeste. Aproveite sua viagem!"
+  },
+  {
+    "instruction": "Regex é um conjunto de caracteres que define um padrão de pesquisa. Esse tipo de padrão geralmente é usado por algoritmos de busca de strings para localizar ou substituir strings ou para validar entradas. Converta o texto natural em inglês para regex.",
+    "input": "Combine um endereço IP válido",
+    "generator": "text-davinci-003-greedy-long",
+    "output": ":\n\n\\b(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\b"
+  },
+  {
+    "instruction": "Escreva uma descrição envolvente e bem escrita do anúncio de uma propriedade para vender uma casa. O endereço da casa e alguns detalhes são fornecidos a você. Preencha a lacuna de informação com alucinações, se necessário.",
+    "input": "Endereço da propriedade: 412 Monterey Ave, Capitola, CA 95010\nEstacionamento: 3 carros + garagem individual pronta\nDetalhes:\n- planta aberta\n- janela com vista para o parque/montanhas\n- Cozinha com armários shaker e balcões de quartzo Calcatta branco",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "- Suíte master com closet\n\nBem-vindo à 412 Monterey Ave, uma deslumbrante casa de 3 quartos e 2 banheiros localizada no coração de Capitola. Esta casa oferece uma planta aberta com muita luz natural e vista para o parque e as montanhas a partir das janelas. A cozinha está equipada com armários shaker e balcões de quartzo Calcatta branco, perfeitos para entretenimento. A suíte master possui closet e banheiro luxuoso com banheira de imersão.\n\nNo exterior, encontrará um amplo quintal com bastante espaço para atividades ao ar livre. Há também uma garagem individual com espaço para três carros adicionais na garagem.\n\nEsta casa é o lugar perfeito para chamar de lar. Não perca esta oportunidade de possuir um pedaço do paraíso. Agende uma exibição hoje!"
+  },
+  {
+    "instruction": "Dada a descrição de um anúncio de imóvel, extraia do texto as informações e detalhes do imóvel. Os detalhes consistem em endereço, atributos básicos da casa, etc.",
+    "input": "CAMINHE ATÉ A PRAIA DE CAPITOLA KNOLLS! Condomínio de nível único no andar de cima com seu próprio grande deck privativo com vista para a natureza. Linda casa pronta para morar e esperando que você dê seus toques pessoais. Ambiente de parque paisagístico lindo e bem conservado, com grama verdejante, piscina comunitária e spa para desfrutar. Localização desejável...caminhe até Capitola Village, Gayle 's Bakery, restaurantes, lojas, escolas ou pegue a Hwy 1 ao virar da esquina.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Endereço: Capitol Knolls, Capitola, CA\n\nAtributos básicos da casa: condomínio de nível único no andar de cima, amplo deck privativo, pronto para morar, piscina comunitária e spa."
+  },
+  {
+    "instruction": "Revise a descrição da propriedade e diga-nos o que há de bom e de ruim nela e liste suas principais conclusões.",
+    "input": "Há verdadeira magia na combinação da arquitetura vitoriana inerentemente atraente com uma estética moderna. Adicione um extraordinário jardim de vários níveis e o resultado é a elegância inegável da 444 29th St. A frente da casa é repleta de luz com uma conexão perfeita entre sala de estar, jantar e cozinha. Cozinha recentemente atualizada com balcões de quartzo e eletrodomésticos atualizados. Uma sala de jantar LG tem uma baía de janelas e, quando combinada com a sala de estar adjacente, oferece um espaço ideal para entreter. 2 dormitórios LG neste nível estão na parte traseira. Ambos com armários LG e saída para o jardim. Banheiro completo elegantemente remodelado neste nível. O 3º quarto / 2º banheiro completo estão localizados no térreo - perfeito como escritório de hóspedes, home office, área de fitness, etc. O enorme jardim ocupa um terreno extra profundo e tem um lindo paisagismo e terraço. Lavandaria/arrumos, garagem para 1 carro, painéis solares Tesla. Parte privilegiada e plana de Noe Valley - curta caminhada até tudo o que Noe tem a oferecer. A poucos passos da J-Church e conveniente para ônibus/autoestradas.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Bom: \n- Combina arquitetura vitoriana com estética moderna\n- Frente da casa cheia de luz\n- Cozinha recentemente atualizada com balcões de quartzo e eletrodomésticos atualizados\n- Sala de jantar ampla com janelas salientes\n- Dois quartos amplos com armários grandes\n- Banheiro completo elegantemente remodelado\n- Terceiro quarto/segundo banheiro completo no térreo\n- Enorme jardim ocupando um terreno extra profundo\n- Belo paisagismo e terraço\n- Lavandaria/arrecadação\n- Garagem para um carro\n- Painéis solares Tesla\n- Parte nobre e plana de Noe Valley\n- Curta caminhada até tudo o que Noe tem a oferecer\n- Passos da J-Igreja\n- Conveniente para ônibus/rodovias\n\nRuim: \n- Nenhum\n\nPrincipais vantagens:\n- Combina arquitetura vitoriana com estética moderna\n- Cozinha recentemente atualizada com balcões de quartzo e eletrodomésticos atualizados\n- Dois quartos amplos com armários grandes\n- Terceiro quarto/segundo banheiro completo no térreo\n- Enorme jardim ocupando um terreno extra profundo\n- Lavandaria/arrecadação\n- Garagem para um carro\n- Painéis solares Tesla\n- Parte nobre e plana de Noe Valley\n- Curta caminhada até tudo o que Noe tem a oferecer\n- Passos da J-Igreja\n- Conveniente para ônibus/rodovias"
+  },
+  {
+    "instruction": "Sugira alguns pacotes de produtos que costumam ser adquiridos com um determinado produto.",
+    "input": "MacBook Air",
+    "generator": "text-davinci-003-greedy-long",
+    "output": ":\n\n1. Disco rígido externo\n2. Impressora\n3. Rato sem fio\n4. Bolsa para laptop\n5. Unidade flash USB\n6. Fones de ouvido\n7. Monitor Externo\n8. Protetor contra surtos\n9. Software do pacote Office\n10. Leitor de cartão de memória"
+  },
+  {
+    "instruction": "Como parte da engenharia de software, as histórias de usuários descrevem o que o usuário deseja que o sistema faça, enquanto os critérios de aceitação descrevem as condições que uma história de usuário específica deve atender. Crie critérios básicos de aceitação com base na história de usuário fornecida.",
+    "input": "História do usuário: como usuário, desejo usar um campo de pesquisa para digitar uma cidade, nome ou rua, para poder encontrar opções de hotel correspondentes.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Critérios de aceitação:\n1. O campo de pesquisa deve estar claramente visível na página.\n2. O campo de pesquisa deve aceitar qualquer combinação de letras, números e caracteres especiais.\n3. Os resultados da pesquisa devem ser exibidos em formato de lista.\n4. A lista deve incluir nome, endereço e classificação de cada opção de hotel.\n5. A lista deve ser ordenada por relevância para a consulta de pesquisa."
+  },
+  {
+    "instruction": "Uma história de usuário é uma explicação informal e geral de um recurso de software escrita da perspectiva do usuário final ou cliente. Escreva uma história de usuário para um determinado software.",
+    "input": "Gmail",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Como usuário, quero poder redigir e enviar e-mails facilmente para meus contatos, para que possa me comunicar rapidamente com eles."
+  },
+  {
+    "instruction": "Escreva um ticket Jira para a tarefa determinada.",
+    "input": "Integração de novos funcionários",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Resumo: Crie um novo processo de integração para novos funcionários\n\nDescrição:\nPrecisamos criar um novo processo de integração para novos funcionários que garanta que eles tenham as informações e os recursos necessários para terem sucesso em suas novas funções. Este processo deve incluir um e-mail de boas-vindas, uma introdução à empresa e sua cultura, uma revisão do manual do funcionário e qualquer outra informação relevante.\n\nCritérios de aceitação:\n- O e-mail de boas-vindas é enviado ao novo funcionário\n- É fornecida introdução à empresa e à cultura\n- O manual do funcionário é revisado\n- Qualquer outra informação relevante é fornecida"
+  },
+  {
+    "instruction": "Parafraseie o texto fornecido em estilo acadêmico.",
+    "input": "Muitos artigos foram publicados sobre este tópico.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Numerosos artigos acadêmicos foram escritos sobre este assunto."
+  },
+  {
+    "instruction": "Faça uma lista dos prós e contras da decisão tomada.",
+    "input": "Implementando uma política de trabalho remoto",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Prós:\n\n1. Maior flexibilidade para os funcionários\n2. Redução de custos indiretos para empresas\n3. Aumento da produtividade devido a menos distrações\n4. Melhor equilíbrio entre vida profissional e pessoal para os funcionários\n5. Impacto ambiental reduzido devido a menos deslocamentos\n\nContras:\n\n1. Aumento dos riscos de segurança devido ao acesso remoto\n2. Dificuldade em monitorar o desempenho dos funcionários\n3. Dificuldade em promover a colaboração em equipe\n4. Aumento dos custos para as empresas fornecerem o equipamento necessário\n5. Dificuldade em manter a cultura da empresa"
+  },
+  {
+    "instruction": "Inclua notas de estudo importantes e pontos-chave que alguém deve saber sobre o assunto em questão.",
+    "input": "história dos EUA",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "1. Os Estados Unidos da América foram fundados em 1776 com a assinatura da Declaração de Independência.\n\n2. A Revolução Americana foi travada de 1775 a 1783, com as colónias a conquistarem a sua independência da Grã-Bretanha.\n\n3. A Constituição dos Estados Unidos foi ratificada em 1788, estabelecendo a estrutura para o governo federal.\n\n4. A compra da Louisiana em 1803 dobrou o tamanho dos Estados Unidos.\n\n5. A Guerra Civil foi travada de 1861 a 1865, com a União derrotando a Confederação e abolindo a escravatura.\n\n6. Os Estados Unidos tornaram-se uma potência mundial no final do século XIX e início do século XX, com a Guerra Hispano-Americana e a Primeira Guerra Mundial.\n\n7. A Grande Depressão da década de 1930 foi seguida pela Segunda Guerra Mundial, que terminou em 1945 com os Estados Unidos como um dos vencedores.\n\n8. A Guerra Fria entre os Estados Unidos e a União Soviética durou de 1945 a 1991.\n\n9. Os Estados Unidos são líderes em ciência e tecnologia desde a década de 1950, com a corrida espacial e o desenvolvimento da Internet.\n\n10. Os Estados Unidos são hoje uma grande potência económica e política no mundo."
+  },
+  {
+    "instruction": "Com base nas palavras-chave fornecidas, escreva uma crítica sobre um restaurante.",
+    "input": "Nome: Pizzaria\nbons preços, lugar tranquilo, saboroso, funcionários simpáticos",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Visitei recentemente a Pizzaria e fiquei agradavelmente surpreendido. Os preços eram muito razoáveis ​​e a atmosfera era tranquila e relaxante. A comida era deliciosa e a equipe foi muito simpática e acolhedora. Tive uma ótima experiência e definitivamente recomendaria este lugar para quem procura um lugar agradável e tranquilo para desfrutar de uma refeição saborosa."
+  },
+  {
+    "instruction": "Converta a linguagem natural em uma lista de instruções passo a passo.",
+    "input": "Vá para oeste na I-10 até chegar à 101 e depois siga para norte. Você eventualmente verá o letreiro de Hollywood.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "1. Pegue a I-10 Oeste \n2. Pegue a 101 Norte \n3. Procure o letreiro de Hollywood"
+  },
+  {
+    "instruction": "Forneça uma classificação ESRB para o jogo seguinte.",
+    "input": "Este é um jogo de ação e aventura no qual os jogadores ajudam Kratos e seu filho em uma missão perigosa. Os jogadores exploram vários reinos e se envolvem em combates corpo a corpo frenéticos contra invasores semelhantes a humanos e criaturas fantásticas (por exemplo, centauros, trolls, dragões). Os jogadores usam machados e lâminas acorrentadas para combater os inimigos, muitas vezes resultando em grandes efeitos de respingos de sangue e desmembramentos. Os jogadores podem realizar ataques finais que retratam o empalamento de perto por meio de armas brancas e manuais; golpes repetidos de machado no pescoço de uma criatura resultam em decapitação. As palavras “f ** k” e “sh * t” são ouvidas no jogo.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "M (maduro)"
+  },
+  {
+    "instruction": "Uma descrição da cor foi fornecida. Encontre o código CSS associado a essa cor.",
+    "input": "Uma cor vermelha clara com um tom meio claro de rosa",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Código CSS: cor de fundo: #FFC0CB;"
+  },
+  {
+    "instruction": "Identifique e corrija bugs no código fornecido e reescreva-o",
+    "input": "para i no intervalo (10)\n    imprimir(A resposta é:)\n    imprimir (eu)",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "# Código reescrito\npara i no intervalo (10):\n    print(\"A resposta é:\")\n    imprimir (eu)"
+  },
+  {
+    "instruction": "Faça uma lista de frases comuns para determinada seção do artigo.",
+    "input": "Introdução",
+    "generator": "text-davinci-003-greedy-long",
+    "output": ":\n\n1. Neste artigo, irei discutir...\n2. O objetivo deste artigo é...\n3. Este artigo irá explorar...\n4. O foco principal deste artigo é...\n5. Este artigo examinará...\n6. Este artigo irá analisar...\n7. Este artigo irá investigar...\n8. Este artigo analisará...\n9. Este artigo irá revisar...\n10. Este artigo discutirá..."
+  },
+  {
+    "instruction": "Descrevemos uma cena de um filme que vimos no passado. Descubra que filme é.",
+    "input": "É preciso escolher entre escolher a pílula vermelha ou a pílula azul",
+    "generator": "text-davinci-003-greedy-long",
+    "output": ".\n\nO filme é Matrix (1999)."
+  },
+  {
+    "instruction": "Pegue a descrição do produto e escreva um anúncio criativo para ele.",
+    "input": "As câmeras de documentos permitem que os professores exibam documentos, livros ou outros materiais para os alunos verem.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Agora você pode dar vida à sua sala de aula com a mais recente Câmera de Documentos! Nossa câmera de documentos é fácil de usar e fornece imagens nítidas para seus alunos verem. Com seus recursos avançados, você pode aumentar e diminuir o zoom, girar imagens e até capturar imagens estáticas. Além disso, é leve e portátil, para que você possa levá-lo aonde quer que vá. Obtenha a Câmera de Documentos hoje e dê vida à sua sala de aula!"
+  },
+  {
+    "instruction": "Traduza a descrição em linguagem natural em uma fórmula do Planilhas Google.",
+    "input": "se C7 for igual a \"EUA\" ou \"Canadá\" ou \"Europa\" ou \"Américas\"",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "então retorne \"Sim\"\n\n=SE(OU(C7=\"EUA\",C7=\"Canadá\",C7=\"Europa\",C7=\"Américas\"),\"Sim\",\"\")"
+  },
+  {
+    "instruction": "Você recebe um tweet e deve decidir se é ofensivo ou não.",
+    "input": "Ela certamente sofreu um pouco de pressão por ser tão... bem, idiota.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Este tweet é ofensivo."
+  },
+  {
+    "instruction": "Preveja quantas estrelas o autor dará ao restaurante a partir de uma avaliação do Yelp.",
+    "input": "Os comentários foram ótimos, mas sinceramente achei que estava tudo bem. Parecia um ponto turístico típico onde a comida era medíocre. O serviço foi ok, não ótimo, mas não o pior.\nO pão estava muito bom. Eu pedi as batatas fritas. Eles tinham um sabor doce de cebola Vidalia. Não há necessidade de batatas fritas porque elas estavam encharcadas e com muito sabor. Meu namorado pediu uma massa de frango com pesto e foi novamente medíocre.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "É difícil prever quantas estrelas o autor dará ao restaurante a partir desta avaliação. É provável que o autor dê 3 estrelas ao restaurante."
+  },
+  {
+    "instruction": "Categorize o Negócio em Restaurantes, Serviços Domésticos, Serviços Automotivos e Diversos com base em suas Especialidades.",
+    "input": "Ligue para 650-636-4884 ou visite nosso website para receber um orçamento. Esta loja é especializada em Pneus Novos e Reparação Automóvel em Geral. Levamos todos os pneus internamente e temos uma ampla variedade para atender a qualquer orçamento ou especificidade do carro. Se você não tiver certeza de quais pneus precisa, há especialistas disponíveis para ajudá-lo a escolher o melhor pneu para suas necessidades. Também transportamos pneus para veículos comerciais e podemos atender uma ampla variedade de frotas.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Serviços automotivos"
+  },
+  {
+    "instruction": "Notifique-me sobre quaisquer sugestões que você possa ter para tornar o texto mais gramaticalmente correto.",
+    "input": "Esta é a segunda vez que venho aqui, e as vibrações e a comida eram excelentes.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Sugiro mudar a frase para: “Esta é a minha segunda vez aqui, e as vibrações e a comida eram excelentes”."
+  },
+  {
+    "instruction": "Usando os ingredientes disponíveis, crie uma receita de jantar.",
+    "input": "Couve + manteiga de amêndoa + vinagre de maçã + néctar de agave + tamari",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "+ alho + gengibre\n\nSalada de Couve Asiática\n\nIngredientes:\n\n- 2 maços de couve lavados e picados\n\n- 2 colheres de sopa de manteiga de amêndoa\n- 2 colheres de sopa de vinagre de maçã\n- 2 colheres de sopa de néctar de agave\n- 2 colheres de sopa de tamari\n- 2 dentes de alho picados\n- 1 colher de chá de gengibre fresco ralado\n- 2 colheres de sopa de óleo de gergelim\n- Sal e pimenta a gosto\n\nInstruções:\n\n1. Em uma tigela grande, misture a couve, a manteiga de amêndoa, o vinagre de maçã, o néctar de agave, o tamari, o alho, o gengibre e o óleo de gergelim.\n\n2. Massageie os ingredientes na couve até que ela fique uniformemente revestida.\n\n3. Tempere com sal e pimenta a gosto.\n\n4. Sirva a salada gelada ou em temperatura ambiente. Aproveitar!"
+  },
+  {
+    "instruction": "Categorize o produto fornecido em um dos departamentos de Eletrônicos, Computadores, Casa Inteligente ou Artes e Ofícios.",
+    "input": "Termostato de aprendizagem Google Nest",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Casa inteligente"
+  },
+  {
+    "instruction": "Forneça instruções para o exercício determinado.",
+    "input": "Elevações de perna",
+    "generator": "text-davinci-003-greedy-long",
+    "output": ":\n\n1. Deite-se de costas sobre uma superfície plana, com as pernas esticadas e os braços ao lado do corpo.\n\n2. Levante lentamente as pernas até formar um ângulo de 90 graus com o tronco.\n\n3. Mantenha esta posição por alguns segundos e, em seguida, abaixe lentamente as pernas de volta à posição inicial.\n\n4. Repita este exercício 10 a 15 vezes."
+  },
+  {
+    "instruction": "Reescreva o texto e corrija os erros ortográficos.",
+    "input": "Resolve problemas comuns e únicos a cada equipe.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Resolve problemas comuns e únicos a cada equipe."
+  },
+  {
+    "instruction": "Escreva antônimos para a palavra dada.",
+    "input": "laureado",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "denegrir"
+  },
+  {
+    "instruction": "Escreva a sintaxe HTML para a ação necessária.",
+    "input": "adicionando uma imagem à página",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "<img src=\"image.jpg\" alt=\"descrição da imagem\">"
+  },
+  {
+    "instruction": "Identifique a linguagem de programação usada para escrever o código fornecido.",
+    "input": "se (20 > 18) {\n  printf(\"20 é maior que 18\");\n}",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "C"
+  },
+  {
+    "instruction": "Decida a qual parte do discurso a palavra sublinhada pertence.",
+    "input": "a escola _continuará durante o inverno",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "_\n\nmanter - verbo"
+  },
+  {
+    "instruction": "Defina o que a palavra sublinhada significa para as crianças.",
+    "input": "_cumprir uma promessa",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "_\n\nCumprir uma promessa significa fazer o que você disse que faria. Significa cumprir sua palavra e não quebrar sua promessa."
+  },
+  {
+    "instruction": "Expanda a frase dada e dê-lhe mais detalhes e profundidade.",
+    "input": "Isso mudou minha vida.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "No momento em que experimentei isso, soube que minha vida nunca mais seria a mesma. Foi um evento que mudou minha vida e transformou completamente minha visão do mundo e meu lugar nele. Abriu meus olhos para uma nova maneira de pensar e me deu uma nova apreciação pela beleza e complexidade da vida. Mudou a minha vida de uma forma que nunca poderia ter imaginado e serei eternamente grato pelo impacto que teve em mim."
+  },
+  {
+    "instruction": "Extraia o endereço do imóvel da seção “Sobre este espaço” do Airbnb.",
+    "input": "Situado no sopé da pitoresca cidade mineira histórica de Grass Valley, CA, este chalé moderno e espaçoso convida você a experimentar o ar livre com a família, amigos e animais de estimação. Aproveite a banheira de hidromassagem, a quadra de basquete, a casa na árvore, os quartos infantis, a churrasqueira, a fogueira, o teatro ao ar livre e muito mais. A uma hora de Tahoe e a 10 minutos da cidade, você nunca terá falta de coisas para explorar.",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Endereço: Grass Valley, CA"
+  },
+  {
+    "instruction": "Escreva como é a pronúncia da palavra dada. Siga o esquema do \"dicionário de pronúncia do Google\" para ortografia fonética.",
+    "input": "interpretações",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "in-tər-prə-ˈtā-shanz"
+  },
+  {
+    "instruction": "Explique o significado da frase dada em termos simples. Use um exemplo, se possível. Seria útil se você pudesse dar um exemplo.",
+    "input": "\"Com um pouco de cedência neles\"",
+    "generator": "text-davinci-003-greedy-long",
+    "output": "Esta frase significa que algo é flexível ou tem algum grau de elasticidade ou elasticidade. Por exemplo, um elástico cede um pouco e, quando você o estica, ele volta ao formato original."
+  }
+]
