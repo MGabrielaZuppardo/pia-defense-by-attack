@@ -34,5 +34,5 @@ huggingface/
 # Windows
 Thumbs.db
 desktop.ini
-data/*_pt.json
+#data/*_pt.json
 .claude 
